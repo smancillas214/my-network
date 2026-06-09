@@ -6,11 +6,20 @@
     "contactMethod": "Phone",
     "cadenceDays": 30,
     "priority": "High",
-    "tags": ["college", "mentor"],
+    "tags": [
+      "college",
+      "mentor"
+    ],
     "lastContactedDate": "2026-05-10",
     "conversationHistory": [
-      { "date": "2026-05-10", "note": "Caught up over coffee, she's starting a new role in July. Wants to celebrate once she's settled in." },
-      { "date": "2026-02-14", "note": "Quick call, talked about her move to Austin and the job search." }
+      {
+        "date": "2026-05-10",
+        "note": "Caught up over coffee, she's starting a new role in July. Wants to celebrate once she's settled in."
+      },
+      {
+        "date": "2026-02-14",
+        "note": "Quick call, talked about her move to Austin and the job search."
+      }
     ],
     "manualStatus": "Scheduled",
     "scheduledDate": "2026-06-20",
@@ -23,11 +32,20 @@
     "contactMethod": "Video Call",
     "cadenceDays": 45,
     "priority": "High",
-    "tags": ["work", "mentor"],
+    "tags": [
+      "work",
+      "mentor"
+    ],
     "lastContactedDate": "2026-04-02",
     "conversationHistory": [
-      { "date": "2026-04-02", "note": "Career advice call — he suggested I look into the platform team opening and offered an intro to the hiring manager." },
-      { "date": "2026-01-20", "note": "Annual planning chat. He's mentoring two new analysts this year." }
+      {
+        "date": "2026-04-02",
+        "note": "Career advice call — he suggested I look into the platform team opening and offered an intro to the hiring manager."
+      },
+      {
+        "date": "2026-01-20",
+        "note": "Annual planning chat. He's mentoring two new analysts this year."
+      }
     ],
     "manualStatus": null,
     "scheduledDate": null,
@@ -40,11 +58,20 @@
     "contactMethod": "Text",
     "cadenceDays": 21,
     "priority": "Medium",
-    "tags": ["work", "friend"],
+    "tags": [
+      "work",
+      "friend"
+    ],
     "lastContactedDate": "2026-05-22",
     "conversationHistory": [
-      { "date": "2026-05-22", "note": "Texted about the conference in September — she's submitting a talk proposal." },
-      { "date": "2026-05-01", "note": "Grabbed lunch downtown. She's thinking about switching teams." }
+      {
+        "date": "2026-05-22",
+        "note": "Texted about the conference in September — she's submitting a talk proposal."
+      },
+      {
+        "date": "2026-05-01",
+        "note": "Grabbed lunch downtown. She's thinking about switching teams."
+      }
     ],
     "manualStatus": "Reached Out",
     "scheduledDate": null,
@@ -57,11 +84,20 @@
     "contactMethod": "Phone",
     "cadenceDays": 60,
     "priority": "Low",
-    "tags": ["college", "friend"],
+    "tags": [
+      "college",
+      "friend"
+    ],
     "lastContactedDate": "2026-03-15",
     "conversationHistory": [
-      { "date": "2026-03-15", "note": "He's heading to Portugal for a 6-month sabbatical starting in April. Said to check back in the fall." },
-      { "date": "2025-12-28", "note": "Holiday catch-up call. Kids are doing great, planning the sabbatical." }
+      {
+        "date": "2026-03-15",
+        "note": "He's heading to Portugal for a 6-month sabbatical starting in April. Said to check back in the fall."
+      },
+      {
+        "date": "2025-12-28",
+        "note": "Holiday catch-up call. Kids are doing great, planning the sabbatical."
+      }
     ],
     "manualStatus": "On Hold",
     "scheduledDate": null,
@@ -74,11 +110,19 @@
     "contactMethod": "In Person",
     "cadenceDays": 90,
     "priority": "Medium",
-    "tags": ["family"],
+    "tags": [
+      "family"
+    ],
     "lastContactedDate": "2026-05-30",
     "conversationHistory": [
-      { "date": "2026-05-30", "note": "Family BBQ at her place. We said we'd plan a lake trip for late summer — need to lock in a date." },
-      { "date": "2026-02-22", "note": "Stopped by for her birthday. She's remodeling the kitchen." }
+      {
+        "date": "2026-05-30",
+        "note": "Family BBQ at her place. We said we'd plan a lake trip for late summer — need to lock in a date."
+      },
+      {
+        "date": "2026-02-22",
+        "note": "Stopped by for her birthday. She's remodeling the kitchen."
+      }
     ],
     "manualStatus": "Awaiting Next Meeting",
     "scheduledDate": null,
@@ -91,12 +135,1790 @@
     "contactMethod": "Email",
     "cadenceDays": 60,
     "priority": "Low",
-    "tags": ["work", "industry"],
+    "tags": [
+      "work",
+      "industry"
+    ],
     "lastContactedDate": "2026-05-25",
     "conversationHistory": [
-      { "date": "2026-05-25", "note": "Emailed back and forth about the vendor consolidation project. He shared their migration playbook." },
-      { "date": "2026-03-18", "note": "Met at the Twin Cities tech meetup, compared notes on data tooling." }
+      {
+        "date": "2026-05-25",
+        "note": "Emailed back and forth about the vendor consolidation project. He shared their migration playbook."
+      },
+      {
+        "date": "2026-03-18",
+        "note": "Met at the Twin Cities tech meetup, compared notes on data tooling."
+      }
     ],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "16bf1b4d-3ce5-4f71-aa09-d5feaa8758c6",
+    "name": "Henry Ryan",
+    "location": "Dallas",
+    "contactMethod": "Phone",
+    "cadenceDays": 7,
+    "priority": "High",
+    "type": "Friend",
+    "tags": [
+      "IC",
+      "family",
+      "search",
+      "close",
+      "faith"
+    ],
+    "notes": "",
+    "lastContactedDate": "2026-06-07",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "b2de472b-fd68-4ee0-a16e-0518f28b9fd2",
+    "name": "Cole Bloomfield",
+    "location": "Dallas",
+    "contactMethod": "Phone",
+    "cadenceDays": 14,
+    "priority": "High",
+    "type": "Friend",
+    "tags": [
+      "Bain",
+      "IC",
+      "family",
+      "search",
+      "close"
+    ],
+    "notes": "",
+    "lastContactedDate": "2026-06-07",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "d3ba1437-27e7-425d-87ca-4f11ea62cc4b",
+    "name": "Carter Blackwell",
+    "location": "Austin",
+    "contactMethod": "Phone",
+    "cadenceDays": 30,
+    "priority": "Medium",
+    "type": "Friend",
+    "tags": [
+      "close",
+      "Austin"
+    ],
+    "notes": "",
+    "lastContactedDate": "2026-05-25",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "f34819ba-8b3e-484c-8cfb-a4a954bb5fc5",
+    "name": "Savannah Breedlove",
+    "location": "Austin",
+    "contactMethod": "Phone",
+    "cadenceDays": 30,
+    "priority": "Medium",
+    "type": "Friend",
+    "tags": [
+      "close",
+      "Austin"
+    ],
+    "notes": "",
+    "lastContactedDate": "2026-05-25",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "597fc53d-0b30-4ce3-81a7-84e117eb46a6",
+    "name": "Logan Haire",
+    "location": "Fort Worth",
+    "contactMethod": "Phone",
+    "cadenceDays": 30,
+    "priority": "High",
+    "type": "Friend",
+    "tags": [
+      "SRS",
+      "family",
+      "search",
+      "close"
+    ],
+    "notes": "",
+    "lastContactedDate": "2026-05-18",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "10391ffe-c64a-4a34-9385-5d60bf255bb3",
+    "name": "Jack Tucker",
+    "location": "Houston",
+    "contactMethod": "Phone",
+    "cadenceDays": 30,
+    "priority": "High",
+    "type": "Friend",
+    "tags": [
+      "IC",
+      "close"
+    ],
+    "notes": "",
+    "lastContactedDate": "2026-05-25",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "46783520-b21a-4f18-9d06-0a7fea43f431",
+    "name": "Rob Wallace",
+    "location": "Houston",
+    "contactMethod": "Phone",
+    "cadenceDays": 30,
+    "priority": "High",
+    "type": "Friend",
+    "tags": [
+      "IC",
+      "close"
+    ],
+    "notes": "",
+    "lastContactedDate": "2026-04-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "d46ee2c4-4be4-4b12-b192-362ef72d1c1d",
+    "name": "Jack Wright",
+    "location": "NYC",
+    "contactMethod": "Phone",
+    "cadenceDays": 30,
+    "priority": "High",
+    "type": "Friend",
+    "tags": [
+      "IC",
+      "close"
+    ],
+    "notes": "",
+    "lastContactedDate": "2026-04-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "303f3562-9cc0-4655-a392-5fec8143a554",
+    "name": "Rawley Schott",
+    "location": "Dallas",
+    "contactMethod": "Phone",
+    "cadenceDays": 30,
+    "priority": "High",
+    "type": "Mentee",
+    "tags": [
+      "close",
+      "family",
+      "mentee",
+      "SRS",
+      "faith"
+    ],
+    "notes": "",
+    "lastContactedDate": "2026-05-22",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "a3ab4e1c-d5ad-4c10-b642-095cb1a890f7",
+    "name": "Liam Baskin",
+    "location": "Dallas",
+    "contactMethod": "Phone",
+    "cadenceDays": 45,
+    "priority": "High",
+    "type": "Friend",
+    "tags": [
+      "Bain",
+      "wisdom",
+      "search"
+    ],
+    "notes": "",
+    "lastContactedDate": "2026-04-19",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "a90f44b6-1a8e-4c5a-895f-af350ee178a8",
+    "name": "Caleb Feste",
+    "location": "Houston",
+    "contactMethod": "Phone",
+    "cadenceDays": 45,
+    "priority": "High",
+    "type": "Friend",
+    "tags": [
+      "IC",
+      "close"
+    ],
+    "notes": "",
+    "lastContactedDate": "2026-06-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "0a7e3462-2ce6-461b-a393-0db0acf69b19",
+    "name": "Jack Fisher",
+    "location": "Houston",
+    "contactMethod": "Phone",
+    "cadenceDays": 45,
+    "priority": "High",
+    "type": "Friend",
+    "tags": [
+      "IC",
+      "close"
+    ],
+    "notes": "",
+    "lastContactedDate": "2026-05-25",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "a9391cf8-b0b7-45b0-a734-9f430176cfed",
+    "name": "Mason Graham",
+    "location": "Dallas",
+    "contactMethod": "Phone",
+    "cadenceDays": 45,
+    "priority": "Medium",
+    "type": "Friend",
+    "tags": [
+      "SRS",
+      "A&M",
+      "sports",
+      "CRE"
+    ],
+    "notes": "",
+    "lastContactedDate": "2026-05-09",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "c9f4a69c-27c1-4200-9956-cf7898a5a726",
+    "name": "Alison Kreher",
+    "location": "Dallas",
+    "contactMethod": "Phone",
+    "cadenceDays": 45,
+    "priority": "Low",
+    "type": "Friend",
+    "tags": [
+      "close"
+    ],
+    "notes": "",
+    "lastContactedDate": "2026-05-03",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "4db488fb-7a99-426b-aff3-322b34f87127",
+    "name": "Lucy Anne Link",
+    "location": "Dallas",
+    "contactMethod": "Phone",
+    "cadenceDays": 45,
+    "priority": "Low",
+    "type": "Friend",
+    "tags": [
+      "close"
+    ],
+    "notes": "",
+    "lastContactedDate": "2026-04-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "4126f20d-af5f-4fa5-8c83-4a24a9e27894",
+    "name": "Brayden Petroshus",
+    "location": "Dallas",
+    "contactMethod": "Phone",
+    "cadenceDays": 45,
+    "priority": "Medium",
+    "type": "Friend",
+    "tags": [
+      "IC",
+      "close"
+    ],
+    "notes": "",
+    "lastContactedDate": "2026-05-18",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "74bf8df8-c4a8-4dbc-8ae8-8348d6c79239",
+    "name": "Colton Taylor",
+    "location": "Houston",
+    "contactMethod": "Phone",
+    "cadenceDays": 45,
+    "priority": "Medium",
+    "type": "Friend",
+    "tags": [
+      "IC",
+      "close"
+    ],
+    "notes": "",
+    "lastContactedDate": "2026-05-18",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "9bbcbdb5-0242-458c-a112-453ed8e85b68",
+    "name": "Alex Cabanas",
+    "location": "Woodlands",
+    "contactMethod": "Phone",
+    "cadenceDays": 45,
+    "priority": "High",
+    "type": "Mentor",
+    "tags": [
+      "A&M",
+      "wisdom",
+      "connector"
+    ],
+    "notes": "",
+    "lastContactedDate": "2026-06-03",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "f67fa766-c6a0-43ed-8f6b-c52e4bc91252",
+    "name": "Mike Earsing",
+    "location": "Dallas",
+    "contactMethod": "Phone",
+    "cadenceDays": 45,
+    "priority": "High",
+    "type": "Mentor",
+    "tags": [
+      "Jesuit",
+      "wisdom"
+    ],
+    "notes": "",
+    "lastContactedDate": "2026-05-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "90a9f7da-fab0-4db2-8149-15f9489960c1",
+    "name": "Zach Brantley",
+    "location": "Dallas",
+    "contactMethod": "Meal",
+    "cadenceDays": 60,
+    "priority": "Low",
+    "type": "Friend",
+    "tags": [
+      "A&M",
+      "sports",
+      "CRE"
+    ],
+    "notes": "",
+    "lastContactedDate": "2026-03-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "ebed81b2-a018-492d-ab7b-bc2d8d46854a",
+    "name": "Trent Armstrong",
+    "location": "Dallas",
+    "contactMethod": "Phone",
+    "cadenceDays": 90,
+    "priority": "Medium",
+    "type": "Friend",
+    "tags": [
+      "SRS",
+      "A&M",
+      "sports",
+      "wisdom"
+    ],
+    "notes": "",
+    "lastContactedDate": "2026-01-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "a7b94ac8-dd00-47ff-bc91-800a0871e9cd",
+    "name": "Chris Bybee",
+    "location": "Dallas",
+    "contactMethod": "Phone",
+    "cadenceDays": 90,
+    "priority": "High",
+    "type": "Friend",
+    "tags": [
+      "SRS: A&M",
+      "wisdom",
+      "search"
+    ],
+    "notes": "",
+    "lastContactedDate": "2026-01-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "ad798d91-ed66-4084-aa31-d911f008ec8f",
+    "name": "Aidan Chandlee",
+    "location": "Dallas",
+    "contactMethod": "Phone",
+    "cadenceDays": 90,
+    "priority": "Low",
+    "type": "Friend",
+    "tags": [
+      "Bain",
+      "search"
+    ],
+    "notes": "",
+    "lastContactedDate": "2026-01-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "ff987570-9829-47ab-b22f-386829b133e2",
+    "name": "Jimmie Fields",
+    "location": "Dallas",
+    "contactMethod": "Phone",
+    "cadenceDays": 90,
+    "priority": "Medium",
+    "type": "Friend",
+    "tags": [
+      "A&M"
+    ],
+    "notes": "",
+    "lastContactedDate": "2026-02-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "0a2fbc74-2433-4033-8aa2-c4a4fc2bc677",
+    "name": "Dante Gaudet",
+    "location": "Dallas",
+    "contactMethod": "Phone",
+    "cadenceDays": 90,
+    "priority": "High",
+    "type": "Friend",
+    "tags": [
+      "Dallas",
+      "CRE"
+    ],
+    "notes": "",
+    "lastContactedDate": "2026-03-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "2bd5a9ed-2cf5-4bac-a3fa-e0272e2b2486",
+    "name": "Tyler Molinaro",
+    "location": "Dallas",
+    "contactMethod": "Phone",
+    "cadenceDays": 90,
+    "priority": "High",
+    "type": "Friend",
+    "tags": [
+      "Bain",
+      "close",
+      "wisdom"
+    ],
+    "notes": "",
+    "lastContactedDate": "2026-02-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "db988b44-b201-490b-bfd9-cf9c266532d0",
+    "name": "Luke Nolan",
+    "location": "Dallas",
+    "contactMethod": "Phone",
+    "cadenceDays": 90,
+    "priority": "Low",
+    "type": "Friend",
+    "tags": [
+      "Jesuit",
+      "sports"
+    ],
+    "notes": "",
+    "lastContactedDate": "2026-05-15",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "5c609d00-d231-48aa-b3e6-cc6019d725c8",
+    "name": "Pat O'Connor",
+    "location": "San Antonio",
+    "contactMethod": "Phone",
+    "cadenceDays": 90,
+    "priority": "Low",
+    "type": "Friend",
+    "tags": [
+      "Politics"
+    ],
+    "notes": "",
+    "lastContactedDate": "2025-08-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "cf690af0-96ae-4368-91ee-4e1367debb91",
+    "name": "Lana Picone",
+    "location": "Austin",
+    "contactMethod": "Phone",
+    "cadenceDays": 90,
+    "priority": "Medium",
+    "type": "Friend",
+    "tags": [
+      "Bain",
+      "A&M"
+    ],
+    "notes": "",
+    "lastContactedDate": "2026-06-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "eff64a65-e2d3-41a6-bdf4-fcb0265da8b0",
+    "name": "Will Reichert",
+    "location": "Dallas",
+    "contactMethod": "Phone",
+    "cadenceDays": 90,
+    "priority": "Low",
+    "type": "Friend",
+    "tags": [
+      "A&M"
+    ],
+    "notes": "",
+    "lastContactedDate": "2026-05-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "89896c9d-bdf3-4175-a32b-bbe3ce3c19f6",
+    "name": "Mariano Silva",
+    "location": "Spain",
+    "contactMethod": "Phone",
+    "cadenceDays": 90,
+    "priority": "Low",
+    "type": "Friend",
+    "tags": [
+      "Bain"
+    ],
+    "notes": "",
+    "lastContactedDate": "2026-04-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "a256bf0b-02bf-4919-90c3-bb335b6140de",
+    "name": "Jake Taylor",
+    "location": "Dallas",
+    "contactMethod": "Meal",
+    "cadenceDays": 90,
+    "priority": "Medium",
+    "type": "Friend",
+    "tags": [
+      "Bain"
+    ],
+    "notes": "",
+    "lastContactedDate": "2026-08-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "bf78d8b7-cdeb-48f5-bda0-545a951d13e2",
+    "name": "Blake Baggett",
+    "location": "Dallas",
+    "contactMethod": "Phone",
+    "cadenceDays": 90,
+    "priority": "Low",
+    "type": "Mentee",
+    "tags": [
+      "A&M"
+    ],
+    "notes": "",
+    "lastContactedDate": "2026-01-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "19121ea9-29b3-46c3-9310-3d9be050aed2",
+    "name": "Cayden Bartusek",
+    "location": "Dallas",
+    "contactMethod": "Phone",
+    "cadenceDays": 90,
+    "priority": "Low",
+    "type": "Mentee",
+    "tags": [
+      "Jesuit"
+    ],
+    "notes": "",
+    "lastContactedDate": "2026-05-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "7b2ded3e-edcd-4086-b463-be644c9478fa",
+    "name": "Carl Baggett",
+    "location": "Dallas",
+    "contactMethod": "Phone",
+    "cadenceDays": 90,
+    "priority": "High",
+    "type": "Mentor",
+    "tags": [
+      "A&M",
+      "wisdom",
+      "connector"
+    ],
+    "notes": "",
+    "lastContactedDate": "2026-09-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "2920a1c0-b12f-43c5-86c5-3b50a53de5c8",
+    "name": "John Claybrook",
+    "location": "College Station",
+    "contactMethod": "Phone",
+    "cadenceDays": 90,
+    "priority": "High",
+    "type": "Mentor",
+    "tags": [
+      "A&M"
+    ],
+    "notes": "",
+    "lastContactedDate": "2026-09-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "65a7b894-9ece-444d-80f9-aea80748e44b",
+    "name": "Eric Fisher",
+    "location": "San Antonio",
+    "contactMethod": "Phone",
+    "cadenceDays": 90,
+    "priority": "High",
+    "type": "Mentor",
+    "tags": [
+      "A&M",
+      "wisdom",
+      "connector"
+    ],
+    "notes": "",
+    "lastContactedDate": "2026-05-25",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "db4681eb-40eb-4228-ba18-eb17a590d1c0",
+    "name": "James Havlock",
+    "location": "Houston",
+    "contactMethod": "Phone",
+    "cadenceDays": 90,
+    "priority": "High",
+    "type": "Mentor",
+    "tags": [
+      "SRS",
+      "wisdom",
+      "connector"
+    ],
+    "notes": "",
+    "lastContactedDate": "2025-07-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "2bf4252f-a8f8-4d5b-9c70-e5bdf2e20122",
+    "name": "Randy Luck",
+    "location": "Dallas",
+    "contactMethod": "Phone",
+    "cadenceDays": 90,
+    "priority": "High",
+    "type": "Mentor",
+    "tags": [
+      "A&M",
+      "Bain",
+      "wisdom",
+      "connector"
+    ],
+    "notes": "",
+    "lastContactedDate": "2026-06-05",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "399a48c3-0ffd-4bf5-8fb6-5d66a2ff4c7c",
+    "name": "Sean McMullin",
+    "location": "Dallas",
+    "contactMethod": "Phone",
+    "cadenceDays": 90,
+    "priority": "Medium",
+    "type": "Mentor",
+    "tags": [
+      "Jesuit",
+      "connector"
+    ],
+    "notes": "",
+    "lastContactedDate": "2026-05-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "3404e70e-1b9e-43da-9057-8b0b8b264be1",
+    "name": "Clay Nickens",
+    "location": "Houston / Austin",
+    "contactMethod": "Phone",
+    "cadenceDays": 90,
+    "priority": "High",
+    "type": "Mentor",
+    "tags": [
+      "Bain"
+    ],
+    "notes": "",
+    "lastContactedDate": "2026-05-18",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "052955ff-9dfd-4844-9d82-199d9e46100e",
+    "name": "Marcus Pennington",
+    "location": "Austin",
+    "contactMethod": "Phone",
+    "cadenceDays": 90,
+    "priority": "High",
+    "type": "Mentor",
+    "tags": [
+      "SRS",
+      "wisdom",
+      "connector"
+    ],
+    "notes": "",
+    "lastContactedDate": "2025-09-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "c6ce38b3-91db-4205-8cfd-b52f421c4f5a",
+    "name": "Walker Ryan",
+    "location": "Austin",
+    "contactMethod": "Phone",
+    "cadenceDays": 90,
+    "priority": "Medium",
+    "type": "Mentor",
+    "tags": [
+      "A&M"
+    ],
+    "notes": "",
+    "lastContactedDate": "2025-09-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "186b0368-283a-4aab-8d58-ab46b507a456",
+    "name": "John Ryan",
+    "location": "Fort Worth",
+    "contactMethod": "Meal",
+    "cadenceDays": 90,
+    "priority": "Medium",
+    "type": "Mentor",
+    "tags": [
+      "A&M",
+      "wisdom"
+    ],
+    "notes": "",
+    "lastContactedDate": "2025-01-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "2c346f70-5e4f-495f-93a3-a700c3fb87ec",
+    "name": "Kyle Woodruff",
+    "location": "Houston",
+    "contactMethod": "Phone",
+    "cadenceDays": 90,
+    "priority": "High",
+    "type": "Mentor",
+    "tags": [
+      "Bain",
+      "wisdom",
+      "search",
+      "connector"
+    ],
+    "notes": "",
+    "lastContactedDate": "2026-10-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "fc7e2265-732c-4079-a41b-a7590d173507",
+    "name": "Tim Woolsey",
+    "location": "Houston",
+    "contactMethod": "Phone",
+    "cadenceDays": 90,
+    "priority": "High",
+    "type": "Mentor",
+    "tags": [
+      "Bain",
+      "wisdom",
+      "search",
+      "connector"
+    ],
+    "notes": "",
+    "lastContactedDate": "2025-01-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "50806a25-9d27-4110-88b0-9b26f1101729",
+    "name": "Maddie Thomas",
+    "location": "Houston",
+    "contactMethod": "Phone",
+    "cadenceDays": 135,
+    "priority": "Medium",
+    "type": "Friend",
+    "tags": [
+      "A&M"
+    ],
+    "notes": "",
+    "lastContactedDate": "2026-02-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "02f75e21-3373-419a-a238-94820bc33766",
+    "name": "Noah Wells",
+    "location": "Dallas",
+    "contactMethod": "Phone",
+    "cadenceDays": 135,
+    "priority": "Medium",
+    "type": "Friend",
+    "tags": [
+      "Bain"
+    ],
+    "notes": "",
+    "lastContactedDate": "2026-02-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "3b0a08f8-5de2-42cc-89f0-2a6d11c6bf63",
+    "name": "Rusty Hundley",
+    "location": "Dallas",
+    "contactMethod": "Phone",
+    "cadenceDays": 135,
+    "priority": "High",
+    "type": "Mentor",
+    "tags": [
+      "Bain",
+      "wisdom",
+      "connector"
+    ],
+    "notes": "",
+    "lastContactedDate": "2026-04-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "6e6ba7b0-bac6-4a8e-902a-fc3ff6bf1d6d",
+    "name": "John Clayton",
+    "location": "Dallas",
+    "contactMethod": "Meal",
+    "cadenceDays": 180,
+    "priority": "Medium",
+    "type": "Friend",
+    "tags": [
+      "A&M"
+    ],
+    "notes": "",
+    "lastContactedDate": "2025-01-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "021afc00-1ebe-42c8-bd34-3a950ce8496e",
+    "name": "Chris Earles",
+    "location": "Dallas",
+    "contactMethod": "Meal",
+    "cadenceDays": 180,
+    "priority": "Medium",
+    "type": "Friend",
+    "tags": [
+      "Bain"
+    ],
+    "notes": "",
+    "lastContactedDate": "2025-01-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "c1666a09-7feb-406b-ade8-184fc98dde27",
+    "name": "Lauren Feitzinger",
+    "location": "Austin",
+    "contactMethod": "Phone",
+    "cadenceDays": 180,
+    "priority": "Medium",
+    "type": "Friend",
+    "tags": [
+      "Bain"
+    ],
+    "notes": "",
+    "lastContactedDate": "2025-01-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "6bc3fffd-a920-4d77-aaf0-1fd7f99ca7f2",
+    "name": "Michael Field",
+    "location": "Dallas",
+    "contactMethod": "Phone",
+    "cadenceDays": 180,
+    "priority": "Medium",
+    "type": "Friend",
+    "tags": [
+      "Jesuit"
+    ],
+    "notes": "",
+    "lastContactedDate": "2026-03-16",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "9ce3eed1-92f4-471b-b992-390b05e5a4f9",
+    "name": "Dan Kanef",
+    "location": "Dallas",
+    "contactMethod": "Phone",
+    "cadenceDays": 180,
+    "priority": "Low",
+    "type": "Friend",
+    "tags": [
+      "Bain"
+    ],
+    "notes": "",
+    "lastContactedDate": "2025-09-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "41e53cc4-0c5d-4c45-91fe-163d4dcd51ab",
+    "name": "Jett Robertson",
+    "location": "Dallas",
+    "contactMethod": "Meal",
+    "cadenceDays": 180,
+    "priority": "High",
+    "type": "Friend",
+    "tags": [
+      "Holland",
+      "wisdom",
+      "search"
+    ],
+    "notes": "",
+    "lastContactedDate": "2025-06-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "9f7bda89-7b41-4fce-bda3-59da94557999",
+    "name": "Caleb Smith",
+    "location": "DC",
+    "contactMethod": "Phone",
+    "cadenceDays": 180,
+    "priority": "Low",
+    "type": "Friend",
+    "tags": [
+      "A&M"
+    ],
+    "notes": "",
+    "lastContactedDate": "2025-01-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "252f465d-807f-405d-aaf7-de3a1abfdae7",
+    "name": "Justyn Tedder",
+    "location": "DC",
+    "contactMethod": "Phone",
+    "cadenceDays": 180,
+    "priority": "Low",
+    "type": "Friend",
+    "tags": [
+      "A&M"
+    ],
+    "notes": "",
+    "lastContactedDate": "2025-01-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "29900a50-edaa-434d-8290-4f99808ca08e",
+    "name": "PJ Van Den Branden",
+    "location": "Dallas",
+    "contactMethod": "Phone",
+    "cadenceDays": 180,
+    "priority": "Low",
+    "type": "Friend",
+    "tags": [
+      "Bain"
+    ],
+    "notes": "",
+    "lastContactedDate": "2025-01-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "ca06a70f-c26d-4353-b11c-be317054dec6",
+    "name": "Charlie Rose",
+    "location": "Dallas / Houston?",
+    "contactMethod": "Phone",
+    "cadenceDays": 180,
+    "priority": "Medium",
+    "type": "Mentee",
+    "tags": [
+      "Dallas"
+    ],
+    "notes": "",
+    "lastContactedDate": "2025-01-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "cf97addd-a558-4766-9a0f-5b18109290f3",
+    "name": "Sam Steffler",
+    "location": "Dallas",
+    "contactMethod": "Phone",
+    "cadenceDays": 180,
+    "priority": "Low",
+    "type": "Mentee",
+    "tags": [
+      "A&M"
+    ],
+    "notes": "",
+    "lastContactedDate": "2026-01-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "5beb690f-732d-41e8-9983-fa6d31a8f100",
+    "name": "Andrew Abbott",
+    "location": "Scottsdale",
+    "contactMethod": "Phone",
+    "cadenceDays": 180,
+    "priority": "Medium",
+    "type": "Mentor",
+    "tags": [
+      "A&M",
+      "wisdom"
+    ],
+    "notes": "",
+    "lastContactedDate": "2025-06-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "1ac77acf-7136-4805-aca6-2b6aae8744fe",
+    "name": "Cutter Howard",
+    "location": "Houston",
+    "contactMethod": "Phone",
+    "cadenceDays": 180,
+    "priority": "High",
+    "type": "Mentor",
+    "tags": [
+      "Bain",
+      "wisdom",
+      "connector"
+    ],
+    "notes": "",
+    "lastContactedDate": "2025-10-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "fd50305a-6801-4a0f-b290-66c705b57aa7",
+    "name": "Eliot Kerlin",
+    "location": "Dallas",
+    "contactMethod": "Phone",
+    "cadenceDays": 180,
+    "priority": "High",
+    "type": "Mentor",
+    "tags": [
+      "A&M",
+      "wisdom",
+      "connector"
+    ],
+    "notes": "",
+    "lastContactedDate": "2025-10-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "83add97c-5451-4f1e-ae2d-683c197c1df1",
+    "name": "Ian Kocher",
+    "location": "Houston",
+    "contactMethod": "Meal",
+    "cadenceDays": 180,
+    "priority": "High",
+    "type": "Mentor",
+    "tags": [
+      "SRS",
+      "wisdom"
+    ],
+    "notes": "",
+    "lastContactedDate": "2025-01-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "c73b53ad-adbc-4a03-960c-9c182dd236f9",
+    "name": "Bjorn Matthews",
+    "location": "Dallas",
+    "contactMethod": "Phone",
+    "cadenceDays": 180,
+    "priority": "High",
+    "type": "Mentor",
+    "tags": [
+      "Bain",
+      "wisdom"
+    ],
+    "notes": "",
+    "lastContactedDate": "2025-08-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "cafe29ce-4b34-4236-a360-9f4ce0068384",
+    "name": "Dea Ochs",
+    "location": "Dallas",
+    "contactMethod": "Meal",
+    "cadenceDays": 180,
+    "priority": "Medium",
+    "type": "Mentor",
+    "tags": [
+      "Jesuit"
+    ],
+    "notes": "",
+    "lastContactedDate": "2025-12-24",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "28a56a3d-8aaa-4786-801e-062c451ace7c",
+    "name": "Dr. Savell",
+    "location": "College Station",
+    "contactMethod": "Phone",
+    "cadenceDays": 180,
+    "priority": "High",
+    "type": "Mentor",
+    "tags": [
+      "A&M"
+    ],
+    "notes": "",
+    "lastContactedDate": "2025-10-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "e909785e-c387-4722-9809-a50a02b21e0a",
+    "name": "Katie Segal",
+    "location": "Dallas",
+    "contactMethod": "Meal",
+    "cadenceDays": 180,
+    "priority": "Low",
+    "type": "Mentor",
+    "tags": [
+      "Jesuit"
+    ],
+    "notes": "",
+    "lastContactedDate": "2025-05-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "ee216a30-9c2d-4f2a-b630-5815f984fb7e",
+    "name": "David Trigg",
+    "location": "Dallas",
+    "contactMethod": "Phone",
+    "cadenceDays": 180,
+    "priority": "Low",
+    "type": "Mentor",
+    "tags": [
+      "SRS"
+    ],
+    "notes": "",
+    "lastContactedDate": "2025-01-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "7ea08a11-1200-427b-b44f-f24866b1b068",
+    "name": "Andrew Welch",
+    "location": "Houston",
+    "contactMethod": "Phone",
+    "cadenceDays": 180,
+    "priority": "High",
+    "type": "Mentor",
+    "tags": [
+      "Bain"
+    ],
+    "notes": "",
+    "lastContactedDate": "2025-01-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "c89880bc-46e9-4556-acb9-68341a32cc06",
+    "name": "Chris Crump",
+    "location": "Austin",
+    "contactMethod": "Phone",
+    "cadenceDays": 180,
+    "priority": "Medium",
+    "type": "Reach Out",
+    "tags": [
+      "connector"
+    ],
+    "notes": "",
+    "lastContactedDate": "2025-01-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "d6acb8be-3e5c-4308-a0fa-0782035fb124",
+    "name": "Bennett Hurley",
+    "location": "Dallas",
+    "contactMethod": "Meal",
+    "cadenceDays": 270,
+    "priority": "Low",
+    "type": "Friend",
+    "tags": [
+      "A&M"
+    ],
+    "notes": "",
+    "lastContactedDate": "2026-04-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "b21506eb-4f08-4bec-a44e-ed0162315a1d",
+    "name": "Bennett Inehoff",
+    "location": "Houston",
+    "contactMethod": "Meal",
+    "cadenceDays": 270,
+    "priority": "Low",
+    "type": "Friend",
+    "tags": [
+      "Houston"
+    ],
+    "notes": "",
+    "lastContactedDate": "2025-08-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "0d0fa4e9-6480-4828-98ae-af609113fac6",
+    "name": "James Kirkland",
+    "location": "Houston",
+    "contactMethod": "Phone",
+    "cadenceDays": 270,
+    "priority": "Medium",
+    "type": "Friend",
+    "tags": [
+      "Bain"
+    ],
+    "notes": "",
+    "lastContactedDate": "2025-08-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "93772360-7e21-4f1a-9f48-c0dc5d7ad53f",
+    "name": "Mayank Sharma",
+    "location": "Houston",
+    "contactMethod": "Phone",
+    "cadenceDays": 270,
+    "priority": "Medium",
+    "type": "Friend",
+    "tags": [
+      "Bain"
+    ],
+    "notes": "",
+    "lastContactedDate": "2025-08-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "ff473927-a973-43e9-b1f7-07f2f7a79696",
+    "name": "Chris Villareal",
+    "location": "Austin",
+    "contactMethod": "Meal",
+    "cadenceDays": 270,
+    "priority": "Low",
+    "type": "Friend",
+    "tags": [
+      "Bain"
+    ],
+    "notes": "",
+    "lastContactedDate": "2025-01-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "b0c929f6-2397-4fa9-aef5-7dcc6309ff89",
+    "name": "Bells Durnford",
+    "location": "Austin",
+    "contactMethod": "Phone",
+    "cadenceDays": 270,
+    "priority": "Medium",
+    "type": "Mentor",
+    "tags": [
+      "Bain"
+    ],
+    "notes": "",
+    "lastContactedDate": "2025-03-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "657655bd-261d-4606-bccc-26e462e39b6f",
+    "name": "Kehaan Manjee",
+    "location": "Houston",
+    "contactMethod": "Phone",
+    "cadenceDays": 270,
+    "priority": "Medium",
+    "type": "Mentor",
+    "tags": [
+      "Bain"
+    ],
+    "notes": "",
+    "lastContactedDate": "2025-08-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "8849316b-7f85-4c11-8595-999404d56582",
+    "name": "Trent Murphey",
+    "location": "Dallas",
+    "contactMethod": "Phone",
+    "cadenceDays": 270,
+    "priority": "Medium",
+    "type": "Mentor",
+    "tags": [
+      "Bain"
+    ],
+    "notes": "",
+    "lastContactedDate": "2025-08-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "a947d2c2-d22f-4ae6-87f0-9b7bb870e72d",
+    "name": "Chris Naeger",
+    "location": "Austin",
+    "contactMethod": "Meal",
+    "cadenceDays": 270,
+    "priority": "Medium",
+    "type": "Mentor",
+    "tags": [
+      "Bain"
+    ],
+    "notes": "",
+    "lastContactedDate": "2025-01-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "a9c8c0d2-bded-4237-9e1e-5c8a2833b9a0",
+    "name": "Michelle Sterzovsky",
+    "location": "Austin",
+    "contactMethod": "Phone",
+    "cadenceDays": 270,
+    "priority": "High",
+    "type": "Mentor",
+    "tags": [
+      "Bain"
+    ],
+    "notes": "",
+    "lastContactedDate": "2025-10-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "c1ad130d-364a-4a59-b455-c2e126dd28a4",
+    "name": "Joe Williamson",
+    "location": "Dallas",
+    "contactMethod": "Phone",
+    "cadenceDays": 270,
+    "priority": "Low",
+    "type": "Mentor",
+    "tags": [
+      "SRS"
+    ],
+    "notes": "",
+    "lastContactedDate": "2025-07-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "d0144dd5-b38e-4dfa-bddf-e393e4b4d71d",
+    "name": "Frank Civantos",
+    "location": "Dallas",
+    "contactMethod": "Phone",
+    "cadenceDays": 365,
+    "priority": "Low",
+    "type": "Friend",
+    "tags": [
+      "Bain"
+    ],
+    "notes": "",
+    "lastContactedDate": "2026-03-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "14069502-8ac0-4a4a-b10d-648519e2719a",
+    "name": "Anton Cordes",
+    "location": "Austin",
+    "contactMethod": "Meal",
+    "cadenceDays": 365,
+    "priority": "Low",
+    "type": "Friend",
+    "tags": [
+      "A&M"
+    ],
+    "notes": "",
+    "lastContactedDate": "2025-10-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "aafc799e-2829-4863-95e9-548b4adf79f9",
+    "name": "Nik Pruthi",
+    "location": "New Jersey",
+    "contactMethod": "Phone",
+    "cadenceDays": 365,
+    "priority": "Low",
+    "type": "Friend",
+    "tags": [
+      "Bain"
+    ],
+    "notes": "",
+    "lastContactedDate": "2025-01-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "a93354d3-336e-478b-9b0d-9221ef2f0f54",
+    "name": "Derek Croft",
+    "location": "Dallas",
+    "contactMethod": "Phone",
+    "cadenceDays": 365,
+    "priority": "Low",
+    "type": "Mentor",
+    "tags": [
+      "Bain"
+    ],
+    "notes": "",
+    "lastContactedDate": "2025-01-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "0fb1b4d2-563c-49d6-b9da-bb9d68fca11c",
+    "name": "Mary Beth Farrell",
+    "location": "Dallas",
+    "contactMethod": "Meal",
+    "cadenceDays": 365,
+    "priority": "Medium",
+    "type": "Mentor",
+    "tags": [
+      "Jesuit"
+    ],
+    "notes": "",
+    "lastContactedDate": "2025-01-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "c56cd927-c31e-4fbf-9783-ce1fb3514340",
+    "name": "Ramon Herrero",
+    "location": "Dallas",
+    "contactMethod": "Meal",
+    "cadenceDays": 365,
+    "priority": "Low",
+    "type": "Mentor",
+    "tags": [
+      "Bain"
+    ],
+    "notes": "",
+    "lastContactedDate": "2025-01-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "8868678f-cbb3-4ffe-ac2d-2b15c80bc156",
+    "name": "Kevin Meehan",
+    "location": "Austin",
+    "contactMethod": "Phone",
+    "cadenceDays": 365,
+    "priority": "High",
+    "type": "Mentor",
+    "tags": [
+      "Bain"
+    ],
+    "notes": "",
+    "lastContactedDate": "2025-01-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "c32eb094-a613-4d1a-a697-168b3f2c643d",
+    "name": "Morgan Pennington",
+    "location": "Austin",
+    "contactMethod": "Phone",
+    "cadenceDays": 365,
+    "priority": "High",
+    "type": "Mentor",
+    "tags": [
+      "Bain"
+    ],
+    "notes": "",
+    "lastContactedDate": "2025-01-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "d31b5194-c12b-47ad-ae6e-35be14af3bfb",
+    "name": "Steph Sturdivant",
+    "location": "Dallas",
+    "contactMethod": "Phone",
+    "cadenceDays": 365,
+    "priority": "Medium",
+    "type": "Mentor",
+    "tags": [
+      "Bain"
+    ],
+    "notes": "",
+    "lastContactedDate": "2025-01-01",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "88afaa2a-457a-45c0-a3a9-a56f33c7af8d",
+    "name": "Lucas Martin",
+    "location": "Dallas",
+    "contactMethod": "Phone",
+    "cadenceDays": 1000,
+    "priority": "High",
+    "type": "Reach Out",
+    "tags": [
+      "Bain"
+    ],
+    "notes": "High up at AA",
+    "lastContactedDate": "2026-06-09",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "c899305b-40da-4f99-b308-f4c56029d514",
+    "name": "Morgan Maxwell",
+    "location": "Dallas",
+    "contactMethod": "Phone",
+    "cadenceDays": 1000,
+    "priority": "Medium",
+    "type": "Reach Out",
+    "tags": [
+      "Bain"
+    ],
+    "notes": "FW local busienss contact",
+    "lastContactedDate": "2026-06-09",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "366953c0-8442-4854-9866-ab1a1a538aaa",
+    "name": "Zach Rozinsky",
+    "location": "Houston",
+    "contactMethod": "Meal",
+    "cadenceDays": 1000,
+    "priority": "High",
+    "type": "Reach Out",
+    "tags": [
+      "search",
+      "wisdom",
+      "SRS"
+    ],
+    "notes": "Old MSC legend; contact on search",
+    "lastContactedDate": "2026-06-09",
+    "conversationHistory": [],
     "manualStatus": null,
     "scheduledDate": null,
     "onHold": false
