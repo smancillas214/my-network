@@ -336,14 +336,14 @@ a.linklike { color: var(--accent); background: none; border: none; font-size: .9
 }
 #healthBar::-webkit-scrollbar { display: none; }
 .hb-pill { flex: 0 0 auto; border-radius: 20px; padding: 5px 14px; font-size: .82rem; font-weight: 600; white-space: nowrap; }
-#kanban { display: flex; gap: 12px; flex: 1; overflow-x: auto; overflow-y: hidden; padding: 14px 16px 16px; }
+#kanban { display: flex; gap: 12px; flex: 1; min-height: 0; overflow-x: auto; overflow-y: hidden; padding: 14px 16px 16px; }
 #kanban::-webkit-scrollbar { height: 6px; }
 #kanban::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
-.kb-col { flex: 0 0 260px; background: var(--surface-2); border-radius: var(--radius); display: flex; flex-direction: column; max-height: 100%; overflow: hidden; }
+.kb-col { flex: 0 0 260px; background: var(--surface-2); border-radius: var(--radius); display: flex; flex-direction: column; height: 100%; min-height: 0; overflow: hidden; }
 .kb-col-head { display: flex; align-items: center; justify-content: space-between; padding: 12px 14px 10px; flex-shrink: 0; }
 .kb-col-title { font-weight: 700; font-size: .9rem; }
 .kb-col-count { background: var(--surface); border-radius: 10px; padding: 2px 8px; font-size: .75rem; font-weight: 600; color: var(--text-2); }
-.kb-cards { flex: 1; overflow-y: auto; padding: 0 10px 10px; display: flex; flex-direction: column; gap: 8px; transition: background .15s; }
+.kb-cards { flex: 1; min-height: 0; overflow-y: auto; padding: 0 10px 10px; display: flex; flex-direction: column; gap: 8px; transition: background .15s; }
 .kb-cards::-webkit-scrollbar { width: 4px; }
 .kb-cards::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
 .kb-col.drag-over .kb-cards { background: var(--blue-bg); border-radius: 8px; }
