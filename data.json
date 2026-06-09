@@ -922,8 +922,8 @@
     "notes": "",
     "lastContactedDate": "2025-01-01",
     "conversationHistory": [],
-    "manualStatus": "Reached Out",
-    "scheduledDate": null,
+    "manualStatus": "Scheduled",
+    "scheduledDate": "2026-06-09",
     "onHold": false
   },
   {
