@@ -920,10 +920,15 @@
       "wisdom"
     ],
     "notes": "",
-    "lastContactedDate": "2025-01-01",
-    "conversationHistory": [],
-    "manualStatus": "Scheduled",
-    "scheduledDate": "2026-06-09",
+    "lastContactedDate": "2026-06-09",
+    "conversationHistory": [
+      {
+        "date": "2026-06-09",
+        "note": "Howdy Test"
+      }
+    ],
+    "manualStatus": null,
+    "scheduledDate": null,
     "onHold": false
   },
   {
