@@ -52,32 +52,6 @@
     "onHold": false
   },
   {
-    "id": "c9d4e5f6-1a2b-4c3d-8e7f-6a5b4c3d2e1f",
-    "name": "Priya Raghavan",
-    "location": "Seattle, WA",
-    "contactMethod": "Text",
-    "cadenceDays": 21,
-    "priority": "Medium",
-    "tags": [
-      "work",
-      "friend"
-    ],
-    "lastContactedDate": "2026-05-22",
-    "conversationHistory": [
-      {
-        "date": "2026-05-22",
-        "note": "Texted about the conference in September — she's submitting a talk proposal."
-      },
-      {
-        "date": "2026-05-01",
-        "note": "Grabbed lunch downtown. She's thinking about switching teams."
-      }
-    ],
-    "manualStatus": "Reached Out",
-    "scheduledDate": null,
-    "onHold": false
-  },
-  {
     "id": "e5f8a9b0-7c6d-4e5f-a3b2-c1d0e9f8a7b6",
     "name": "Angela Reyes",
     "location": "San Antonio, TX",
