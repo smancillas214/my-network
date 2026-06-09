@@ -1,31 +1,5 @@
 [
   {
-    "id": "b7e2d3c4-9f8a-4b6c-a1d2-3e4f5a6b7c8d",
-    "name": "James Whitfield",
-    "location": "Chicago, IL",
-    "contactMethod": "Video Call",
-    "cadenceDays": 45,
-    "priority": "High",
-    "tags": [
-      "work",
-      "mentor"
-    ],
-    "lastContactedDate": "2026-04-02",
-    "conversationHistory": [
-      {
-        "date": "2026-04-02",
-        "note": "Career advice call — he suggested I look into the platform team opening and offered an intro to the hiring manager."
-      },
-      {
-        "date": "2026-01-20",
-        "note": "Annual planning chat. He's mentoring two new analysts this year."
-      }
-    ],
-    "manualStatus": null,
-    "scheduledDate": null,
-    "onHold": false
-  },
-  {
     "id": "e5f8a9b0-7c6d-4e5f-a3b2-c1d0e9f8a7b6",
     "name": "Angela Reyes",
     "location": "San Antonio, TX",
