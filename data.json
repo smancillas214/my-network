@@ -78,32 +78,6 @@
     "onHold": false
   },
   {
-    "id": "d1e6f7a8-3b4c-4d5e-9f0a-1b2c3d4e5f6a",
-    "name": "Tom Okafor",
-    "location": "Denver, CO",
-    "contactMethod": "Phone",
-    "cadenceDays": 60,
-    "priority": "Low",
-    "tags": [
-      "college",
-      "friend"
-    ],
-    "lastContactedDate": "2026-03-15",
-    "conversationHistory": [
-      {
-        "date": "2026-03-15",
-        "note": "He's heading to Portugal for a 6-month sabbatical starting in April. Said to check back in the fall."
-      },
-      {
-        "date": "2025-12-28",
-        "note": "Holiday catch-up call. Kids are doing great, planning the sabbatical."
-      }
-    ],
-    "manualStatus": "On Hold",
-    "scheduledDate": null,
-    "onHold": true
-  },
-  {
     "id": "e5f8a9b0-7c6d-4e5f-a3b2-c1d0e9f8a7b6",
     "name": "Angela Reyes",
     "location": "San Antonio, TX",
