@@ -723,7 +723,7 @@
     "notes": "",
     "lastContactedDate": "2025-09-01",
     "conversationHistory": [],
-    "manualStatus": null,
+    "manualStatus": "Follow Up",
     "scheduledDate": null,
     "onHold": false
   },
