@@ -1,31 +1,5 @@
 [
   {
-    "id": "a3f1c2d4-5e6b-4a7c-8d9e-0f1a2b3c4d5e",
-    "name": "Maria Santos",
-    "location": "Austin, TX",
-    "contactMethod": "Phone",
-    "cadenceDays": 30,
-    "priority": "High",
-    "tags": [
-      "college",
-      "mentor"
-    ],
-    "lastContactedDate": "2026-05-10",
-    "conversationHistory": [
-      {
-        "date": "2026-05-10",
-        "note": "Caught up over coffee, she's starting a new role in July. Wants to celebrate once she's settled in."
-      },
-      {
-        "date": "2026-02-14",
-        "note": "Quick call, talked about her move to Austin and the job search."
-      }
-    ],
-    "manualStatus": "Scheduled",
-    "scheduledDate": "2026-06-20",
-    "onHold": false
-  },
-  {
     "id": "b7e2d3c4-9f8a-4b6c-a1d2-3e4f5a6b7c8d",
     "name": "James Whitfield",
     "location": "Chicago, IL",
