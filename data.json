@@ -1,0 +1,104 @@
+[
+  {
+    "id": "a3f1c2d4-5e6b-4a7c-8d9e-0f1a2b3c4d5e",
+    "name": "Maria Santos",
+    "location": "Austin, TX",
+    "contactMethod": "Phone",
+    "cadenceDays": 30,
+    "priority": "High",
+    "tags": ["college", "mentor"],
+    "lastContactedDate": "2026-05-10",
+    "conversationHistory": [
+      { "date": "2026-05-10", "note": "Caught up over coffee, she's starting a new role in July. Wants to celebrate once she's settled in." },
+      { "date": "2026-02-14", "note": "Quick call, talked about her move to Austin and the job search." }
+    ],
+    "manualStatus": "Scheduled",
+    "scheduledDate": "2026-06-20",
+    "onHold": false
+  },
+  {
+    "id": "b7e2d3c4-9f8a-4b6c-a1d2-3e4f5a6b7c8d",
+    "name": "James Whitfield",
+    "location": "Chicago, IL",
+    "contactMethod": "Video Call",
+    "cadenceDays": 45,
+    "priority": "High",
+    "tags": ["work", "mentor"],
+    "lastContactedDate": "2026-04-02",
+    "conversationHistory": [
+      { "date": "2026-04-02", "note": "Career advice call — he suggested I look into the platform team opening and offered an intro to the hiring manager." },
+      { "date": "2026-01-20", "note": "Annual planning chat. He's mentoring two new analysts this year." }
+    ],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "c9d4e5f6-1a2b-4c3d-8e7f-6a5b4c3d2e1f",
+    "name": "Priya Raghavan",
+    "location": "Seattle, WA",
+    "contactMethod": "Text",
+    "cadenceDays": 21,
+    "priority": "Medium",
+    "tags": ["work", "friend"],
+    "lastContactedDate": "2026-05-22",
+    "conversationHistory": [
+      { "date": "2026-05-22", "note": "Texted about the conference in September — she's submitting a talk proposal." },
+      { "date": "2026-05-01", "note": "Grabbed lunch downtown. She's thinking about switching teams." }
+    ],
+    "manualStatus": "Reached Out",
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "d1e6f7a8-3b4c-4d5e-9f0a-1b2c3d4e5f6a",
+    "name": "Tom Okafor",
+    "location": "Denver, CO",
+    "contactMethod": "Phone",
+    "cadenceDays": 60,
+    "priority": "Low",
+    "tags": ["college", "friend"],
+    "lastContactedDate": "2026-03-15",
+    "conversationHistory": [
+      { "date": "2026-03-15", "note": "He's heading to Portugal for a 6-month sabbatical starting in April. Said to check back in the fall." },
+      { "date": "2025-12-28", "note": "Holiday catch-up call. Kids are doing great, planning the sabbatical." }
+    ],
+    "manualStatus": "On Hold",
+    "scheduledDate": null,
+    "onHold": true
+  },
+  {
+    "id": "e5f8a9b0-7c6d-4e5f-a3b2-c1d0e9f8a7b6",
+    "name": "Angela Reyes",
+    "location": "San Antonio, TX",
+    "contactMethod": "In Person",
+    "cadenceDays": 90,
+    "priority": "Medium",
+    "tags": ["family"],
+    "lastContactedDate": "2026-05-30",
+    "conversationHistory": [
+      { "date": "2026-05-30", "note": "Family BBQ at her place. We said we'd plan a lake trip for late summer — need to lock in a date." },
+      { "date": "2026-02-22", "note": "Stopped by for her birthday. She's remodeling the kitchen." }
+    ],
+    "manualStatus": "Awaiting Next Meeting",
+    "scheduledDate": null,
+    "onHold": false
+  },
+  {
+    "id": "f2a9b0c1-8d7e-4f6a-b5c4-d3e2f1a0b9c8",
+    "name": "Dave Lindqvist",
+    "location": "Minneapolis, MN",
+    "contactMethod": "Email",
+    "cadenceDays": 60,
+    "priority": "Low",
+    "tags": ["work", "industry"],
+    "lastContactedDate": "2026-05-25",
+    "conversationHistory": [
+      { "date": "2026-05-25", "note": "Emailed back and forth about the vendor consolidation project. He shared their migration playbook." },
+      { "date": "2026-03-18", "note": "Met at the Twin Cities tech meetup, compared notes on data tooling." }
+    ],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false
+  }
+]
