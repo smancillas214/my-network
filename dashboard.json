@@ -1,8 +1,10 @@
 {
-  "categories": [
-    "Life",
-    "Work"
-  ],
+  "categories": {
+    "Life": [
+      "Europe Trip"
+    ],
+    "Work": []
+  },
   "recurringTasks": [],
   "lastRecurringMonth": "2026-06",
   "weeks": {
@@ -66,7 +68,8 @@
         ],
         "memoryVerses": [],
         "notes": []
-      }
+      },
+      "introReachedOut": {}
     }
   }
 }
