@@ -4,6 +4,33 @@
     "Work"
   ],
   "recurringTasks": [],
-  "lastRecurringMonth": null,
-  "weeks": {}
+  "lastRecurringMonth": "2026-06",
+  "weeks": {
+    "2026-06-08": {
+      "priorities": [],
+      "currentSlate": {
+        "a9391cf8-b0b7-45b0-a734-9f430176cfed": {
+          "name": "Mason Graham",
+          "contactMethod": "Phone",
+          "scheduledDate": "2026-06-12",
+          "source": "scheduled",
+          "completed": false,
+          "completedAt": null
+        },
+        "a7b94ac8-dd00-47ff-bc91-800a0871e9cd": {
+          "name": "Chris Bybee",
+          "contactMethod": "Phone",
+          "scheduledDate": "2026-06-12",
+          "source": "scheduled",
+          "completed": false,
+          "completedAt": null
+        }
+      },
+      "mission": {
+        "ghms": [],
+        "memoryVerses": [],
+        "notes": []
+      }
+    }
+  }
 }
