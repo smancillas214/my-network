@@ -25,32 +25,6 @@
     "onHold": false
   },
   {
-    "id": "f2a9b0c1-8d7e-4f6a-b5c4-d3e2f1a0b9c8",
-    "name": "Dave Lindqvist",
-    "location": "Minneapolis, MN",
-    "contactMethod": "Email",
-    "cadenceDays": 60,
-    "priority": "Low",
-    "tags": [
-      "work",
-      "industry"
-    ],
-    "lastContactedDate": "2026-05-25",
-    "conversationHistory": [
-      {
-        "date": "2026-05-25",
-        "note": "Emailed back and forth about the vendor consolidation project. He shared their migration playbook."
-      },
-      {
-        "date": "2026-03-18",
-        "note": "Met at the Twin Cities tech meetup, compared notes on data tooling."
-      }
-    ],
-    "manualStatus": null,
-    "scheduledDate": null,
-    "onHold": false
-  },
-  {
     "id": "16bf1b4d-3ce5-4f71-aa09-d5feaa8758c6",
     "name": "Henry Ryan",
     "location": "Dallas",
