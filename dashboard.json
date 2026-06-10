@@ -56,7 +56,14 @@
         }
       },
       "mission": {
-        "ghms": [],
+        "ghms": [
+          {
+            "id": "dd621e2b-22a4-4b11-9a39-81e391f8b556",
+            "text": "Star Spangled Banner Playing at Dallas Cathedral after conversation with Dante about converting to Catholicism",
+            "createdAt": "2026-06-10T22:39:23.075Z",
+            "week": "2026-06-08"
+          }
+        ],
         "memoryVerses": [],
         "notes": []
       }
