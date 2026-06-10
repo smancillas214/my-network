@@ -15,8 +15,8 @@
           "priority": "Medium",
           "isRecurring": false,
           "recurringCadence": null,
-          "completed": true,
-          "completedAt": "2026-06-10T22:33:31.012Z",
+          "completed": false,
+          "completedAt": null,
           "createdWeek": "2026-06-08",
           "carriedForward": false
         }
