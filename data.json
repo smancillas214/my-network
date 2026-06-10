@@ -1,30 +1,5 @@
 [
   {
-    "id": "e5f8a9b0-7c6d-4e5f-a3b2-c1d0e9f8a7b6",
-    "name": "Angela Reyes",
-    "location": "San Antonio, TX",
-    "contactMethod": "In Person",
-    "cadenceDays": 90,
-    "priority": "Medium",
-    "tags": [
-      "family"
-    ],
-    "lastContactedDate": "2026-05-30",
-    "conversationHistory": [
-      {
-        "date": "2026-05-30",
-        "note": "Family BBQ at her place. We said we'd plan a lake trip for late summer — need to lock in a date."
-      },
-      {
-        "date": "2026-02-22",
-        "note": "Stopped by for her birthday. She's remodeling the kitchen."
-      }
-    ],
-    "manualStatus": "Awaiting Next Meeting",
-    "scheduledDate": null,
-    "onHold": false
-  },
-  {
     "id": "16bf1b4d-3ce5-4f71-aa09-d5feaa8758c6",
     "name": "Henry Ryan",
     "location": "Dallas",
