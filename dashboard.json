@@ -7,7 +7,20 @@
   "lastRecurringMonth": "2026-06",
   "weeks": {
     "2026-06-08": {
-      "priorities": [],
+      "priorities": [
+        {
+          "id": "63cf0127-2bf4-43c8-9185-51e03c30b2db",
+          "text": "Test 123",
+          "category": "Life",
+          "priority": "Medium",
+          "isRecurring": false,
+          "recurringCadence": null,
+          "completed": true,
+          "completedAt": "2026-06-10T22:33:31.012Z",
+          "createdWeek": "2026-06-08",
+          "carriedForward": false
+        }
+      ],
       "currentSlate": {
         "a9391cf8-b0b7-45b0-a734-9f430176cfed": {
           "name": "Mason Graham",
