@@ -392,6 +392,21 @@
           "completedAt": "2026-06-11T01:50:28.693Z",
           "createdWeek": "2026-06-08",
           "carriedForward": false
+        },
+        {
+          "id": "283913f2-ee42-4c8f-baf5-352bdbcc981e",
+          "text": "Respond to Henry's Questions on Summit Structure",
+          "category": "Work",
+          "subcategory": "AA_Partnership",
+          "priority": "High",
+          "loe": "Medium",
+          "taskStatus": "Not Started",
+          "isRecurring": false,
+          "recurringCadence": null,
+          "completed": false,
+          "completedAt": null,
+          "createdWeek": "2026-06-08",
+          "carriedForward": false
         }
       ],
       "currentSlate": {
