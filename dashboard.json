@@ -566,8 +566,8 @@
           "contactMethod": "Meal",
           "scheduledDate": "2026-06-11",
           "source": "scheduled",
-          "completed": false,
-          "completedAt": null,
+          "completed": true,
+          "completedAt": "2026-06-11T18:08:35.587Z",
           "occasion": null,
           "occasionNotes": null
         }
