@@ -13,18 +13,6 @@
     "2026-06-08": {
       "priorities": [
         {
-          "id": "63cf0127-2bf4-43c8-9185-51e03c30b2db",
-          "text": "Test 123",
-          "category": "Life",
-          "priority": "Medium",
-          "isRecurring": false,
-          "recurringCadence": null,
-          "completed": false,
-          "completedAt": null,
-          "createdWeek": "2026-06-08",
-          "carriedForward": false
-        },
-        {
           "id": "c0d7f6f2-7aae-45f3-b8dd-8dcc1dad3658",
           "text": "Book London Hotel",
           "category": "Life",
