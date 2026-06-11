@@ -549,7 +549,17 @@
           }
         ],
         "memoryVerses": [],
-        "notes": []
+        "notes": [
+          {
+            "id": "1ffaa530-24cb-4dc1-9bc6-896d2cf31a79",
+            "text": "Look into \"AutoResearch\" Claude Plugin - per Field's Advice",
+            "completed": false,
+            "completedAt": null,
+            "followUp": false,
+            "createdAt": "2026-06-11T01:56:48.605Z",
+            "week": "2026-06-08"
+          }
+        ]
       },
       "introReachedOut": {}
     }
