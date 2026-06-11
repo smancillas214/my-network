@@ -1778,5 +1778,23 @@
     "manualStatus": null,
     "scheduledDate": null,
     "onHold": false
+  },
+  {
+    "id": "51160d12-4c33-4199-8308-dacb125ada6e",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false,
+    "name": "Trevor Pownell",
+    "type": "Friend",
+    "priority": "Medium",
+    "location": "Dallas",
+    "contactMethod": "Phone",
+    "cadenceDays": 90,
+    "lastContactedDate": "2026-02-17",
+    "tags": [
+      "wisdom; Bain; A&M"
+    ],
+    "notes": ""
   }
 ]
