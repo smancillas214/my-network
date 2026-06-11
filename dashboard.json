@@ -98,6 +98,21 @@
           "completedAt": null,
           "createdWeek": "2026-06-08",
           "carriedForward": false
+        },
+        {
+          "id": "fe7c18f6-cf71-4d5f-90cd-f046ffb239ea",
+          "text": "Gift for Conners",
+          "category": "Life",
+          "subcategory": "Colorado 4oJ",
+          "priority": "Low",
+          "loe": "Low",
+          "taskStatus": "Not Started",
+          "isRecurring": false,
+          "recurringCadence": null,
+          "completed": false,
+          "completedAt": null,
+          "createdWeek": "2026-06-08",
+          "carriedForward": false
         }
       ],
       "currentSlate": {
