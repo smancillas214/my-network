@@ -453,6 +453,21 @@
           "completedAt": "2026-06-11T01:51:33.426Z",
           "createdWeek": "2026-06-08",
           "carriedForward": false
+        },
+        {
+          "id": "dd57d823-511b-44c9-83a8-8d737b4207e8",
+          "text": "Reflect on Revelyst",
+          "category": "Work",
+          "subcategory": "Revelyst",
+          "priority": "Low",
+          "loe": "High",
+          "taskStatus": "Not Started",
+          "isRecurring": false,
+          "recurringCadence": null,
+          "completed": false,
+          "completedAt": null,
+          "createdWeek": "2026-06-08",
+          "carriedForward": false
         }
       ],
       "currentSlate": {
