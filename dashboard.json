@@ -377,6 +377,21 @@
           "completedAt": null,
           "createdWeek": "2026-06-08",
           "carriedForward": false
+        },
+        {
+          "id": "63587925-e047-4f71-abf6-711d05dcb3d4",
+          "text": "Create Partnership Summit Structure",
+          "category": "Work",
+          "subcategory": "AA_Partnership",
+          "priority": "High",
+          "loe": "High",
+          "taskStatus": "Not Started",
+          "isRecurring": false,
+          "recurringCadence": null,
+          "completed": false,
+          "completedAt": null,
+          "createdWeek": "2026-06-08",
+          "carriedForward": false
         }
       ],
       "currentSlate": {
