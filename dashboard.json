@@ -220,6 +220,21 @@
           "createdWeek": "2026-06-08",
           "carriedForward": false,
           "recurringId": "29fe0060-bef6-4a26-b422-e1e3f5780c33"
+        },
+        {
+          "id": "54957a7a-3eca-4b33-b50e-f9ab9928f73f",
+          "text": "Life Dashboard Creation",
+          "category": "Life",
+          "subcategory": "Claude",
+          "priority": "High",
+          "loe": "High",
+          "taskStatus": "Not Started",
+          "isRecurring": false,
+          "recurringCadence": null,
+          "completed": false,
+          "completedAt": null,
+          "createdWeek": "2026-06-08",
+          "carriedForward": false
         }
       ],
       "currentSlate": {
