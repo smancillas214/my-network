@@ -282,6 +282,21 @@
           "completedAt": null,
           "createdWeek": "2026-06-08",
           "carriedForward": false
+        },
+        {
+          "id": "026d97c6-044f-4f97-8aeb-45a4053af473",
+          "text": "Deliver Mom's Cards",
+          "category": "Life",
+          "subcategory": "Family",
+          "priority": "Low",
+          "loe": "Low",
+          "taskStatus": "Not Started",
+          "isRecurring": false,
+          "recurringCadence": null,
+          "completed": false,
+          "completedAt": null,
+          "createdWeek": "2026-06-08",
+          "carriedForward": false
         }
       ],
       "currentSlate": {
