@@ -556,8 +556,8 @@
           "contactMethod": "Phone",
           "scheduledDate": "2026-06-11",
           "source": "manual",
-          "completed": false,
-          "completedAt": null,
+          "completed": true,
+          "completedAt": "2026-06-11T19:24:20.238Z",
           "occasion": "Breakfast at Kubys",
           "occasionNotes": "Looking to jump from Firmament at EOY - concerned on how to do so elegantly\nAbout to move to Palo Alto - Annabelle dad paying for GSB; open question as to where they move afterward\nAnnabelle about to quit Climatic - will negotiate for vested equity on exit\nLoved trip to Africa and pace of day - felt much more like a vacation then planned, but still get up at 5 am every day and get escorted to bfast due to panthers"
         },
