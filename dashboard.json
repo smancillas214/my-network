@@ -235,6 +235,21 @@
           "completedAt": null,
           "createdWeek": "2026-06-08",
           "carriedForward": false
+        },
+        {
+          "id": "5534b997-ccec-43a9-8430-12994533e90d",
+          "text": "Create Workout Plan / Meal Prep",
+          "category": "Life",
+          "subcategory": "Claude",
+          "priority": "Low",
+          "loe": "Medium",
+          "taskStatus": "Not Started",
+          "isRecurring": false,
+          "recurringCadence": null,
+          "completed": false,
+          "completedAt": null,
+          "createdWeek": "2026-06-08",
+          "carriedForward": false
         }
       ],
       "currentSlate": {
