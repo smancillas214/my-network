@@ -287,7 +287,7 @@ a { color: var(--accent); text-decoration: none; cursor: pointer; }
 .dialog .frow > * { flex: 1; }
 .dialog label.fl { display: block; font-size: .76rem; font-weight: 600; color: var(--text-2); margin-bottom: 3px; }
 .dialog .actions { display: flex; gap: 8px; justify-content: flex-end; margin-top: 16px; }
-.dialog textarea { width: 100%; min-height: 70px; resize: vertical; }
+.dialog textarea { width: 100%; min-height: 100px; resize: vertical; }
 .detail-row { display: flex; gap: 10px; padding: 4px 0; font-size: .88rem; }
 .detail-row .lbl { flex: 0 0 110px; color: var(--text-2); }
 .hist { border-top: 1px solid var(--border); margin-top: 12px; padding-top: 10px; }
@@ -406,7 +406,7 @@ function uuid() { return crypto.randomUUID ? crypto.randomUUID() : "id-" + Date.
 function $(id) { return document.getElementById(id); }
 
 /* ---------- Dates ---------- */
-function parseDate(s) { const [y,m,d] = s.split("-").map(Number); return new Date(y, m-1, d); }
+function parseDate(s) { if (!s) return new Date(); const [y,m,d] = s.split("-").map(Number); return new Date(y, m-1, d); }
 function todayDate() { const t = new Date(); return new Date(t.getFullYear(), t.getMonth(), t.getDate()); }
 function fmtISO(d) { return d.getFullYear() + "-" + String(d.getMonth()+1).padStart(2,"0") + "-" + String(d.getDate()).padStart(2,"0"); }
 function todayStr() { return fmtISO(todayDate()); }
@@ -428,12 +428,14 @@ function dayLabel(iso) {
 
 /* ---------- Contact computed logic ---------- */
 function isReachOut(c) { return c.type === "Reach Out"; }
-function nextDate(c) { const d = parseDate(c.lastContactedDate); d.setDate(d.getDate() + c.cadenceDays); return d; }
-function daysUntilNext(c) { return daysBetween(todayDate(), nextDate(c)); }
-function daysSinceLast(c) { return daysBetween(parseDate(c.lastContactedDate), todayDate()); }
+function nextDate(c) { const d = parseDate(c.lastContactedDate); d.setDate(d.getDate() + (c.cadenceDays || 30)); return d; }
+function daysUntilNext(c) { if (isReachOut(c) || !c.lastContactedDate) return 9999; return daysBetween(todayDate(), nextDate(c)); }
+function daysSinceLast(c) { return c.lastContactedDate ? daysBetween(parseDate(c.lastContactedDate), todayDate()) : null; }
 function autoStatus(c) {
+  if (isReachOut(c)) return c.manualStatus || "Reach Out";
   if (c.manualStatus) return c.manualStatus;
   const du = daysUntilNext(c);
+  if (du === 9999) return "On Track";
   if (du < 0) return "Overdue";
   if (du <= 7) return "Due Soon";
   return "On Track";
@@ -442,6 +444,7 @@ const STATUS_COLORS = {
   "Overdue": ["var(--red)","var(--red-bg)"], "Due Soon": ["var(--yellow)","var(--yellow-bg)"],
   "On Track": ["var(--green)","var(--green-bg)"], "Scheduled": ["var(--blue)","var(--blue-bg)"],
   "Reached Out": ["var(--purple)","var(--purple-bg)"], "On Hold": ["var(--gray)","var(--gray-bg)"],
+  "Reach Out": ["var(--orange)","var(--orange-bg)"],
   "Awaiting Next Meeting": ["var(--orange)","var(--orange-bg)"], "Follow Up": ["var(--orange)","var(--orange-bg)"]
 };
 
@@ -1214,7 +1217,7 @@ function openFollowUpPicker() {
       '<label class="fl">Follow-up action (title)</label>' +
       '<div class="frow"><input id="fuAction" placeholder="e.g. Send intro, Thank you note…"></div>' +
       '<label class="fl">Notes (optional)</label>' +
-      '<textarea id="fuNotes" placeholder="Any specifics…" style="width:100%;min-height:55px;resize:vertical"></textarea>' +
+      '<textarea id="fuNotes" placeholder="Any specifics…" style="width:100%;min-height:80px;resize:vertical"></textarea>' +
     '</div>' +
     '<div class="actions" style="margin-top:10px"><button class="btn" id="fuCancel">Cancel</button><button class="btn primary" id="fuAdd" style="display:none">Add</button></div>'
   );
@@ -1352,7 +1355,7 @@ function openSlatePicker() {
       '<label class="fl">Occasion (optional)</label>' +
       '<div class="frow"><input id="spOcc" placeholder="e.g. Coffee, Birthday dinner…"></div>' +
       '<label class="fl">Notes (optional)</label>' +
-      '<textarea id="spNotes" placeholder="Anything to prep or remember…" style="width:100%;min-height:55px;resize:vertical;margin-bottom:0"></textarea>' +
+      '<textarea id="spNotes" placeholder="Anything to prep or remember…" style="width:100%;min-height:80px;resize:vertical;margin-bottom:0"></textarea>' +
     '</div>' +
     '<div class="actions" style="margin-top:10px"><button class="btn" id="spCancel">Cancel</button><button class="btn primary" id="spAdd" style="display:none">Add to Slate</button></div>'
   );
@@ -1487,7 +1490,7 @@ function renderMission(ro) {
     "</div>");
   if (!ro) html += '<div style="display:flex;flex-direction:column;gap:4px;margin-top:8px">' +
     '<input id="ghmTitle" placeholder="Title…" style="font-size:.85rem;padding:6px 9px">' +
-    '<textarea id="ghmNotes" placeholder="Notes (optional)…" style="font-size:.82rem;min-height:50px;resize:vertical"></textarea>' +
+    '<textarea id="ghmNotes" placeholder="Notes (optional)…" style="font-size:.82rem;min-height:75px;resize:vertical"></textarea>' +
     '<div style="display:flex;justify-content:flex-end"><button class="btn sm" onclick="addGhm()">Add</button></div></div>';
   html += "</div>";
 
@@ -1502,7 +1505,7 @@ function renderMission(ro) {
     "</div>");
   if (!ro) html += '<div style="display:flex;flex-direction:column;gap:4px;margin-top:8px">' +
     '<input id="vsRef" placeholder="Reference (e.g. John 3:16)…" style="font-size:.82rem;padding:6px 9px">' +
-    '<textarea id="vsIn" placeholder="Verse text…" style="font-size:.85rem;min-height:50px;resize:vertical"></textarea>' +
+    '<textarea id="vsIn" placeholder="Verse text…" style="font-size:.85rem;min-height:75px;resize:vertical"></textarea>' +
     '<input id="vsMeaning" placeholder="Meaning / why this matters (optional)…" style="font-size:.82rem;padding:6px 9px">' +
     '<div style="display:flex;justify-content:flex-end"><button class="btn sm" onclick="addVerse()">Add</button></div></div>';
   html += "</div>";
@@ -1631,7 +1634,7 @@ function openTyPicker() {
       '<label class="fl">What you\'re thanking them for (title)</label>' +
       '<div class="frow"><input id="tyTitle" placeholder="e.g. Intro to Sarah, Advice on offer…"></div>' +
       '<label class="fl">Notes (optional)</label>' +
-      '<textarea id="tyNotes" placeholder="Any specifics to include…" style="width:100%;min-height:55px;resize:vertical"></textarea>' +
+      '<textarea id="tyNotes" placeholder="Any specifics to include…" style="width:100%;min-height:80px;resize:vertical"></textarea>' +
     '</div>' +
     '<div class="actions" style="margin-top:10px"><button class="btn" id="tyCancel">Cancel</button><button class="btn primary" id="tyAdd" style="display:none">Add</button></div>'
   );
@@ -1722,7 +1725,7 @@ function sortContacts(list) {
   const s = cFilter.sort;
   if (s === "alpha") list.sort((a,b) => a.name.localeCompare(b.name));
   else if (s === "priority") list.sort((a,b) => (PRIO_ORDER[a.priority]-PRIO_ORDER[b.priority])||a.name.localeCompare(b.name));
-  else if (s === "last") list.sort((a,b) => a.lastContactedDate.localeCompare(b.lastContactedDate));
+  else if (s === "last") list.sort((a,b) => (a.lastContactedDate||"").localeCompare(b.lastContactedDate||""));
   else list.sort((a,b) => daysUntilNext(a) - daysUntilNext(b));
   return list;
 }
