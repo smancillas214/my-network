@@ -281,6 +281,21 @@
           "completedAt": null,
           "createdWeek": "2026-06-08",
           "carriedForward": false
+        },
+        {
+          "id": "a8a53a4f-0009-4a13-8a61-f3029c6a6547",
+          "text": "Family",
+          "category": "Life",
+          "subcategory": null,
+          "priority": "Low",
+          "loe": "Medium",
+          "taskStatus": "Not Started",
+          "isRecurring": false,
+          "recurringCadence": null,
+          "completed": false,
+          "completedAt": null,
+          "createdWeek": "2026-06-08",
+          "carriedForward": false
         }
       ],
       "currentSlate": {
