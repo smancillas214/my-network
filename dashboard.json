@@ -102,6 +102,21 @@
           "completedAt": null,
           "createdWeek": "2026-06-08",
           "carriedForward": false
+        },
+        {
+          "id": "f1e13a27-3f22-4a91-a69f-fbfa674df1b8",
+          "text": "Friday Activity - USS Midway?",
+          "category": "Life",
+          "subcategory": "San Diego Trip",
+          "priority": "Medium",
+          "loe": "Medium",
+          "taskStatus": "Not Started",
+          "isRecurring": false,
+          "recurringCadence": null,
+          "completed": false,
+          "completedAt": null,
+          "createdWeek": "2026-06-08",
+          "carriedForward": false
         }
       ],
       "currentSlate": {
