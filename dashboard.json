@@ -239,8 +239,8 @@
           "taskStatus": "In Progress",
           "isRecurring": false,
           "recurringCadence": null,
-          "completed": false,
-          "completedAt": null,
+          "completed": true,
+          "completedAt": "2026-06-11T19:39:03.801Z",
           "createdWeek": "2026-06-08",
           "carriedForward": false
         },
