@@ -546,6 +546,16 @@
           "completedAt": "2026-06-11T17:00:07.242Z",
           "occasion": "Lunch at Olivia",
           "occasionNotes": "June 10, 2026 · Lunch at Olivia\nHaving a baby with Amanda - due Nov 5 - married legally, going to be renting house together (hopefully in East Dallas)\nJust returned from Phillipines (where Amanda's family is from)\nWill need prayer for bringing Amanda to faith\nExploring Catholicism"
+        },
+        "9e12eb54-2aba-4afa-82da-e9f35ca938bf": {
+          "name": "Mason Graham",
+          "contactMethod": "Meal",
+          "scheduledDate": "2026-06-12",
+          "source": "manual",
+          "completed": false,
+          "completedAt": null,
+          "occasion": "Drinks at Cache",
+          "occasionNotes": "Congratulate on buying house"
         }
       },
       "mission": {
