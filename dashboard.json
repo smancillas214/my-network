@@ -11,7 +11,9 @@
       "Shopping",
       "A_Misc"
     ],
-    "Work": []
+    "Work": [
+      "Budget"
+    ]
   },
   "recurringTasks": [
     {
