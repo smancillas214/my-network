@@ -964,24 +964,6 @@
     "onHold": false
   },
   {
-    "id": "6e6ba7b0-bac6-4a8e-902a-fc3ff6bf1d6d",
-    "name": "John Clayton",
-    "location": "Dallas",
-    "contactMethod": "Meal",
-    "cadenceDays": 180,
-    "priority": "Medium",
-    "type": "Friend",
-    "tags": [
-      "A&M"
-    ],
-    "notes": "",
-    "lastContactedDate": "2025-01-01",
-    "conversationHistory": [],
-    "manualStatus": null,
-    "scheduledDate": null,
-    "onHold": false
-  },
-  {
     "id": "021afc00-1ebe-42c8-bd34-3a950ce8496e",
     "name": "Chris Earles",
     "location": "Dallas",
