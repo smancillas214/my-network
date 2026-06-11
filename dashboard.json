@@ -74,21 +74,6 @@
           "carriedForward": false
         },
         {
-          "id": "4ce72004-ffb6-4b83-aeb9-e630b9609e73",
-          "text": "Replace Air Filter",
-          "category": "Life",
-          "subcategory": "Miller",
-          "priority": "Medium",
-          "loe": "Low",
-          "taskStatus": "Not Started",
-          "isRecurring": false,
-          "recurringCadence": null,
-          "completed": false,
-          "completedAt": null,
-          "createdWeek": "2026-06-08",
-          "carriedForward": false
-        },
-        {
           "id": "fe7c18f6-cf71-4d5f-90cd-f046ffb239ea",
           "text": "Gift for Conners",
           "category": "Life",
