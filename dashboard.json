@@ -250,6 +250,21 @@
           "completedAt": null,
           "createdWeek": "2026-06-08",
           "carriedForward": false
+        },
+        {
+          "id": "3bd4e9ae-2e28-4be0-b23d-2238f0e8bce8",
+          "text": "Learn how to use MCPs",
+          "category": "Life",
+          "subcategory": "Claude",
+          "priority": "Medium",
+          "loe": "Medium",
+          "taskStatus": "Not Started",
+          "isRecurring": false,
+          "recurringCadence": null,
+          "completed": false,
+          "completedAt": null,
+          "createdWeek": "2026-06-08",
+          "carriedForward": false
         }
       ],
       "currentSlate": {
