@@ -275,7 +275,7 @@
           "subcategory": "Callie",
           "priority": "Low",
           "loe": "Low",
-          "taskStatus": "Not Started",
+          "taskStatus": "In Progress",
           "isRecurring": false,
           "recurringCadence": null,
           "completed": false,
