@@ -517,14 +517,6 @@
           "completed": true,
           "completedAt": "2026-06-11T16:07:32.991Z"
         },
-        "0a2fbc74-2433-4033-8aa2-c4a4fc2bc677": {
-          "name": "Dante Gaudet",
-          "contactMethod": "Phone",
-          "scheduledDate": null,
-          "source": "manual",
-          "completed": true,
-          "completedAt": "2026-06-10T22:26:25.937Z"
-        },
         "51160d12-4c33-4199-8308-dacb125ada6e": {
           "name": "Trevor Pownell",
           "contactMethod": "Phone",
