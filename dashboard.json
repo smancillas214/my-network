@@ -556,6 +556,16 @@
           "completedAt": null,
           "occasion": "Breakfast at Kubys",
           "occasionNotes": "Looking to jump from Firmament at EOY - concerned on how to do so elegantly\nAbout to move to Palo Alto - Annabelle dad paying for GSB; open question as to where they move afterward\nAnnabelle about to quit Climatic - will negotiate for vested equity on exit\nLoved trip to Africa and pace of day - felt much more like a vacation then planned, but still get up at 5 am every day and get escorted to bfast due to panthers"
+        },
+        "6e6ba7b0-bac6-4a8e-902a-fc3ff6bf1d6d": {
+          "name": "John Clayton",
+          "contactMethod": "Meal",
+          "scheduledDate": "2026-06-11",
+          "source": "scheduled",
+          "completed": false,
+          "completedAt": null,
+          "occasion": null,
+          "occasionNotes": null
         }
       },
       "mission": {
