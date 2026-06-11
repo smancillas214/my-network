@@ -540,8 +540,8 @@
           "contactMethod": "Phone",
           "scheduledDate": "2026-06-09",
           "source": "manual",
-          "completed": false,
-          "completedAt": null,
+          "completed": true,
+          "completedAt": "2026-06-11T16:48:01.741Z",
           "occasion": "Dubliner",
           "occasionNotes": "Working on a big time bitcoin trading model using Claude and Codex. Returned $11K from $2.2K\nBought ring for Yana - 3 carrot lab grown for $11K"
         }
