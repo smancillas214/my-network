@@ -51,6 +51,21 @@
           "completedAt": null,
           "createdWeek": "2026-06-08",
           "carriedForward": false
+        },
+        {
+          "id": "ce8f0128-57a3-4da0-93cc-984002d51752",
+          "text": "Sketch Out Itinerary",
+          "category": "Life",
+          "subcategory": "Europe Trip",
+          "priority": "Medium",
+          "loe": "High",
+          "taskStatus": "Not Started",
+          "isRecurring": false,
+          "recurringCadence": null,
+          "completed": false,
+          "completedAt": null,
+          "createdWeek": "2026-06-08",
+          "carriedForward": false
         }
       ],
       "currentSlate": {
