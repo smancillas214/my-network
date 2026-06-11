@@ -483,6 +483,21 @@
           "completedAt": null,
           "createdWeek": "2026-06-08",
           "carriedForward": false
+        },
+        {
+          "id": "7ce831f9-e55b-4074-9c1a-10f28c5c6dd0",
+          "text": "Book Vienna to DFW Flight",
+          "category": "Life",
+          "subcategory": "Europe Trip",
+          "priority": "High",
+          "loe": "Low",
+          "taskStatus": "Not Started",
+          "isRecurring": false,
+          "recurringCadence": null,
+          "completed": false,
+          "completedAt": null,
+          "createdWeek": "2026-06-08",
+          "carriedForward": false
         }
       ],
       "currentSlate": {
@@ -563,5 +578,6 @@
       },
       "introReachedOut": {}
     }
-  }
+  },
+  "thankyous": []
 }
