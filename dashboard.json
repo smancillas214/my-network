@@ -555,7 +555,7 @@
             "text": "Look into \"AutoResearch\" Claude Plugin - per Field's Advice",
             "completed": false,
             "completedAt": null,
-            "followUp": true,
+            "followUp": false,
             "createdAt": "2026-06-11T01:56:48.605Z",
             "week": "2026-06-08"
           }
