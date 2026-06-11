@@ -898,7 +898,7 @@
     "notes": "",
     "lastContactedDate": "2025-01-01",
     "conversationHistory": [],
-    "manualStatus": null,
+    "manualStatus": "Reached Out",
     "scheduledDate": null,
     "onHold": false
   },
