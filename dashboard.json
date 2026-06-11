@@ -82,6 +82,21 @@
           "completedAt": null,
           "createdWeek": "2026-06-08",
           "carriedForward": false
+        },
+        {
+          "id": "4ce72004-ffb6-4b83-aeb9-e630b9609e73",
+          "text": "Air Filter",
+          "category": "Life",
+          "subcategory": "Miller",
+          "priority": "Medium",
+          "loe": "Low",
+          "taskStatus": "Not Started",
+          "isRecurring": false,
+          "recurringCadence": null,
+          "completed": false,
+          "completedAt": null,
+          "createdWeek": "2026-06-08",
+          "carriedForward": false
         }
       ],
       "currentSlate": {
