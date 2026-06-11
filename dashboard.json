@@ -407,6 +407,21 @@
           "completedAt": null,
           "createdWeek": "2026-06-08",
           "carriedForward": false
+        },
+        {
+          "id": "e713c9ae-5ea6-4541-b432-a181a047ce0b",
+          "text": "FIGURE OUT TAXES",
+          "category": "Work",
+          "subcategory": null,
+          "priority": "High",
+          "loe": "High",
+          "taskStatus": "Not Started",
+          "isRecurring": false,
+          "recurringCadence": null,
+          "completed": false,
+          "completedAt": null,
+          "createdWeek": "2026-06-08",
+          "carriedForward": false
         }
       ],
       "currentSlate": {
