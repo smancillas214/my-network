@@ -514,8 +514,8 @@
           "contactMethod": "Phone",
           "scheduledDate": "2026-06-12",
           "source": "scheduled",
-          "completed": false,
-          "completedAt": null
+          "completed": true,
+          "completedAt": "2026-06-11T16:07:32.991Z"
         },
         "0a2fbc74-2433-4033-8aa2-c4a4fc2bc677": {
           "name": "Dante Gaudet",
