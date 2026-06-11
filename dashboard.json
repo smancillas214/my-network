@@ -266,6 +266,21 @@
           "completedAt": null,
           "createdWeek": "2026-06-08",
           "carriedForward": false
+        },
+        {
+          "id": "b5756bc4-573e-4b2a-91b3-00324c5d6734",
+          "text": "Create \"Callie 101\" List - Likes / Dislikes / Fav Music / Flowers",
+          "category": "Life",
+          "subcategory": "Callie",
+          "priority": "Low",
+          "loe": "Low",
+          "taskStatus": "Not Started",
+          "isRecurring": false,
+          "recurringCadence": null,
+          "completed": false,
+          "completedAt": null,
+          "createdWeek": "2026-06-08",
+          "carriedForward": false
         }
       ],
       "currentSlate": {
