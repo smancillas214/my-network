@@ -230,7 +230,7 @@
           "subcategory": "Claude",
           "priority": "High",
           "loe": "High",
-          "taskStatus": "Not Started",
+          "taskStatus": "In Progress",
           "isRecurring": false,
           "recurringCadence": null,
           "completed": false,
