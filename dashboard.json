@@ -346,6 +346,21 @@
           "completedAt": "2026-06-11T01:49:17.756Z",
           "createdWeek": "2026-06-08",
           "carriedForward": false
+        },
+        {
+          "id": "a2127859-73a6-4c07-a54e-f5cbeb70d8b9",
+          "text": "Finish Monarch Budget",
+          "category": "Work",
+          "subcategory": "Budget",
+          "priority": "Medium",
+          "loe": "Medium",
+          "taskStatus": "Not Started",
+          "isRecurring": false,
+          "recurringCadence": null,
+          "completed": false,
+          "completedAt": null,
+          "createdWeek": "2026-06-08",
+          "carriedForward": false
         }
       ],
       "currentSlate": {
