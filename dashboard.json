@@ -506,8 +506,8 @@
           "contactMethod": "Phone",
           "scheduledDate": "2026-06-12",
           "source": "scheduled",
-          "completed": true,
-          "completedAt": "2026-06-11T16:07:40.868Z"
+          "completed": false,
+          "completedAt": null
         },
         "a7b94ac8-dd00-47ff-bc91-800a0871e9cd": {
           "name": "Chris Bybee",
