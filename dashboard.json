@@ -498,6 +498,21 @@
           "completedAt": null,
           "createdWeek": "2026-06-08",
           "carriedForward": false
+        },
+        {
+          "id": "3818cbc6-4ec7-4a6e-a8c8-16fe9ac69561",
+          "text": "Coordinate Itinerary with Tina / Steph / Etc",
+          "category": "Life",
+          "subcategory": "San Diego Trip",
+          "priority": "Low",
+          "loe": "Medium",
+          "taskStatus": "Not Started",
+          "isRecurring": false,
+          "recurringCadence": null,
+          "completed": false,
+          "completedAt": null,
+          "createdWeek": "2026-06-08",
+          "carriedForward": false
         }
       ],
       "currentSlate": {
