@@ -36,6 +36,21 @@
           "completedAt": null,
           "createdWeek": "2026-06-08",
           "carriedForward": false
+        },
+        {
+          "id": "9f1e64ec-f8c3-4297-b577-8ea673b31eeb",
+          "text": "Book London --> Venice Flight",
+          "category": "Life",
+          "subcategory": "Europe Trip",
+          "priority": "High",
+          "loe": "Medium",
+          "taskStatus": "Not Started",
+          "isRecurring": false,
+          "recurringCadence": null,
+          "completed": false,
+          "completedAt": null,
+          "createdWeek": "2026-06-08",
+          "carriedForward": false
         }
       ],
       "currentSlate": {
