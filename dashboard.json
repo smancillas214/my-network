@@ -67,6 +67,21 @@
           "completedAt": null,
           "createdWeek": "2026-06-08",
           "carriedForward": false
+        },
+        {
+          "id": "ab99ce18-1669-42e4-b221-9f587a662f2b",
+          "text": "Mosquito Hunt",
+          "category": "Life",
+          "subcategory": "Miller",
+          "priority": "High",
+          "loe": "Medium",
+          "taskStatus": "Not Started",
+          "isRecurring": false,
+          "recurringCadence": null,
+          "completed": false,
+          "completedAt": null,
+          "createdWeek": "2026-06-08",
+          "carriedForward": false
         }
       ],
       "currentSlate": {
