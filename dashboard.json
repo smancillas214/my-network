@@ -329,6 +329,21 @@
           "completedAt": null,
           "createdWeek": "2026-06-08",
           "carriedForward": false
+        },
+        {
+          "id": "b0dfbd55-1995-4082-a0f1-baad7d7f472f",
+          "text": "Text Uncle Chip about Mom Passing",
+          "category": "Life",
+          "subcategory": "Family",
+          "priority": "Low",
+          "loe": "Low",
+          "taskStatus": "Not Started",
+          "isRecurring": false,
+          "recurringCadence": null,
+          "completed": false,
+          "completedAt": null,
+          "createdWeek": "2026-06-08",
+          "carriedForward": false
         }
       ],
       "currentSlate": {
