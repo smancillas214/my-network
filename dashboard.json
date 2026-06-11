@@ -556,6 +556,16 @@
           "completedAt": null,
           "occasion": "Drinks at Cache",
           "occasionNotes": "Congratulate on buying house"
+        },
+        "d46ee2c4-4be4-4b12-b192-362ef72d1c1d": {
+          "name": "Jack Wright",
+          "contactMethod": "Phone",
+          "scheduledDate": "2026-06-11",
+          "source": "manual",
+          "completed": false,
+          "completedAt": null,
+          "occasion": "Breakfast at Kubys",
+          "occasionNotes": "Looking to jump from Firmament at EOY - concerned on how to do so elegantly\nAbout to move to Palo Alto - Annabelle dad paying for GSB; open question as to where they move afterward\nAnnabelle about to quit Climatic - will negotiate for vested equity on exit\nLoved trip to Africa and pace of day - felt much more like a vacation then planned, but still get up at 5 am every day and get escorted to bfast due to panthers"
         }
       },
       "mission": {
