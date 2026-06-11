@@ -468,6 +468,21 @@
           "completedAt": null,
           "createdWeek": "2026-06-08",
           "carriedForward": false
+        },
+        {
+          "id": "5e7e765b-cd1c-4947-ac49-19412dedf14b",
+          "text": "Create Excel Model for Target",
+          "category": "Work",
+          "subcategory": "AA_Partnership",
+          "priority": "High",
+          "loe": "High",
+          "taskStatus": "Not Started",
+          "isRecurring": false,
+          "recurringCadence": null,
+          "completed": false,
+          "completedAt": null,
+          "createdWeek": "2026-06-08",
+          "carriedForward": false
         }
       ],
       "currentSlate": {
