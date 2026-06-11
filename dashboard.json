@@ -582,6 +582,15 @@
             "followUp": false,
             "createdAt": "2026-06-11T16:05:36.894Z",
             "week": "2026-06-08"
+          },
+          {
+            "id": "fa158da0-c778-4c49-850c-abad4f94dab5",
+            "text": "McGuire Woods - Independent Sponsor Summit - Recommended by Dubs",
+            "completed": false,
+            "completedAt": null,
+            "followUp": false,
+            "createdAt": "2026-06-11T16:05:48.181Z",
+            "week": "2026-06-08"
           }
         ]
       },
