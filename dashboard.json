@@ -117,6 +117,21 @@
           "completedAt": null,
           "createdWeek": "2026-06-08",
           "carriedForward": false
+        },
+        {
+          "id": "4a09b71d-efe9-465b-9343-c42db8e0c31c",
+          "text": "Friday Activity - State Fair?",
+          "category": "Life",
+          "subcategory": "San Diego Trip",
+          "priority": "Medium",
+          "loe": "Medium",
+          "taskStatus": "Not Started",
+          "isRecurring": false,
+          "recurringCadence": null,
+          "completed": false,
+          "completedAt": null,
+          "createdWeek": "2026-06-08",
+          "carriedForward": false
         }
       ],
       "currentSlate": {
