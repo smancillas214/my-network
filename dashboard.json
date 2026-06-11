@@ -422,6 +422,21 @@
           "completedAt": null,
           "createdWeek": "2026-06-08",
           "carriedForward": false
+        },
+        {
+          "id": "aebb113f-0844-4eda-855d-0768d496454d",
+          "text": "Cancel Barclays?",
+          "category": "Work",
+          "subcategory": null,
+          "priority": "Medium",
+          "loe": "Medium",
+          "taskStatus": "Not Started",
+          "isRecurring": false,
+          "recurringCadence": null,
+          "completed": false,
+          "completedAt": null,
+          "createdWeek": "2026-06-08",
+          "carriedForward": false
         }
       ],
       "currentSlate": {
