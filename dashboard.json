@@ -8,7 +8,18 @@
     ],
     "Work": []
   },
-  "recurringTasks": [],
+  "recurringTasks": [
+    {
+      "id": "29fe0060-bef6-4a26-b422-e1e3f5780c33",
+      "text": "Replace Air Filter",
+      "category": "Life",
+      "subcategory": "Miller",
+      "priority": "Low",
+      "loe": "Low",
+      "cadenceDays": 30,
+      "lastCompletedDate": null
+    }
+  ],
   "lastRecurringMonth": "2026-06",
   "weeks": {
     "2026-06-08": {
@@ -192,6 +203,22 @@
           "completedAt": null,
           "createdWeek": "2026-06-08",
           "carriedForward": false
+        },
+        {
+          "id": "d3b74923-4615-4877-904b-43e51b809681",
+          "text": "Replace Air Filter",
+          "category": "Life",
+          "subcategory": "Miller",
+          "priority": "Low",
+          "loe": "Low",
+          "taskStatus": "Not Started",
+          "isRecurring": true,
+          "recurringCadence": 30,
+          "completed": false,
+          "completedAt": null,
+          "createdWeek": "2026-06-08",
+          "carriedForward": false,
+          "recurringId": "29fe0060-bef6-4a26-b422-e1e3f5780c33"
         }
       ],
       "currentSlate": {
