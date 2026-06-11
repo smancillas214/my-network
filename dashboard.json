@@ -132,6 +132,21 @@
           "completedAt": null,
           "createdWeek": "2026-06-08",
           "carriedForward": false
+        },
+        {
+          "id": "717db00e-2911-4782-bd30-9cbb77e940d3",
+          "text": "Saturday Activity - Brunch?",
+          "category": "Life",
+          "subcategory": "San Diego Trip",
+          "priority": "Medium",
+          "loe": "Medium",
+          "taskStatus": "Not Started",
+          "isRecurring": false,
+          "recurringCadence": null,
+          "completed": false,
+          "completedAt": null,
+          "createdWeek": "2026-06-08",
+          "carriedForward": false
         }
       ],
       "currentSlate": {
