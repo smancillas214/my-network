@@ -162,6 +162,21 @@
           "completedAt": null,
           "createdWeek": "2026-06-08",
           "carriedForward": false
+        },
+        {
+          "id": "6a038ec4-edfe-4708-bf0f-d897cc0d5a51",
+          "text": "SG / Simms Orders - Logan / Chase",
+          "category": "Life",
+          "subcategory": null,
+          "priority": "Low",
+          "loe": "Low",
+          "taskStatus": "Not Started",
+          "isRecurring": false,
+          "recurringCadence": null,
+          "completed": false,
+          "completedAt": null,
+          "createdWeek": "2026-06-08",
+          "carriedForward": false
         }
       ],
       "currentSlate": {
