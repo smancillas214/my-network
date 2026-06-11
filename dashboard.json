@@ -534,6 +534,16 @@
           "completedAt": null,
           "occasion": null,
           "occasionNotes": null
+        },
+        "51160d12-4c33-4199-8308-dacb125ada6e": {
+          "name": "Trevor Pownell",
+          "contactMethod": "Phone",
+          "scheduledDate": "2026-06-12",
+          "source": "manual",
+          "completed": false,
+          "completedAt": null,
+          "occasion": "Green Point Lunch",
+          "occasionNotes": "Congratulate on promotion"
         }
       },
       "mission": {
