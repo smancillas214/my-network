@@ -498,7 +498,8 @@
           "completed": false,
           "completedAt": null,
           "createdWeek": "2026-06-08",
-          "carriedForward": false
+          "carriedForward": false,
+          "pinned": true
         },
         {
           "id": "3818cbc6-4ec7-4a6e-a8c8-16fe9ac69561",
