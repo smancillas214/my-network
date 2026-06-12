@@ -32,6 +32,112 @@
   "lastRecurringMonth": "2026-06",
   "weeks": {
     "2026-06-08": {
+      "currentSlate": {
+        "a9391cf8-b0b7-45b0-a734-9f430176cfed": {
+          "name": "Mason Graham",
+          "contactMethod": "Phone",
+          "scheduledDate": "2026-06-12",
+          "source": "scheduled",
+          "completed": false,
+          "completedAt": null,
+          "occasion": "Drink at Cache",
+          "occasionNotes": "Congrats on house"
+        },
+        "a7b94ac8-dd00-47ff-bc91-800a0871e9cd": {
+          "name": "Chris Bybee",
+          "contactMethod": "Phone",
+          "scheduledDate": "2026-06-12",
+          "source": "scheduled",
+          "completed": false,
+          "completedAt": null,
+          "occasion": "Beer at Miller",
+          "occasionNotes": "Congrats on baby, promotion; ask advice on Claude, Monarch; search"
+        },
+        "6bc3fffd-a920-4d77-aaf0-1fd7f99ca7f2": {
+          "name": "Michael Field",
+          "contactMethod": "Phone",
+          "scheduledDate": "2026-06-09",
+          "source": "manual",
+          "completed": true,
+          "completedAt": "2026-06-11T16:48:01.741Z",
+          "occasion": "Dubliner",
+          "occasionNotes": "Working on a big time bitcoin trading model using Claude and Codex. Returned $11K from $2.2K\nBought ring for Yana - 3 carrot lab grown for $11K"
+        },
+        "0a2fbc74-2433-4033-8aa2-c4a4fc2bc677": {
+          "name": "Dante Gaudet",
+          "contactMethod": "Phone",
+          "scheduledDate": "2026-06-10",
+          "source": "manual",
+          "completed": true,
+          "completedAt": "2026-06-11T17:00:07.242Z",
+          "occasion": "Lunch at Olivia",
+          "occasionNotes": "June 10, 2026 · Lunch at Olivia\nHaving a baby with Amanda - due Nov 5 - married legally, going to be renting house together (hopefully in East Dallas)\nJust returned from Phillipines (where Amanda's family is from)\nWill need prayer for bringing Amanda to faith\nExploring Catholicism"
+        },
+        "d46ee2c4-4be4-4b12-b192-362ef72d1c1d": {
+          "name": "Jack Wright",
+          "contactMethod": "Phone",
+          "scheduledDate": "2026-06-11",
+          "source": "manual",
+          "completed": true,
+          "completedAt": "2026-06-11T19:24:20.238Z",
+          "occasion": "Breakfast at Kubys",
+          "occasionNotes": "Looking to jump from Firmament at EOY - concerned on how to do so elegantly\nAbout to move to Palo Alto - Annabelle dad paying for GSB; open question as to where they move afterward\nAnnabelle about to quit Climatic - will negotiate for vested equity on exit\nLoved trip to Africa and pace of day - felt much more like a vacation then planned, but still get up at 5 am every day and get escorted to bfast due to panthers"
+        },
+        "6e6ba7b0-bac6-4a8e-902a-fc3ff6bf1d6d": {
+          "name": "John Clayton",
+          "contactMethod": "Meal",
+          "scheduledDate": "2026-06-11",
+          "source": "scheduled",
+          "completed": true,
+          "completedAt": "2026-06-11T18:08:35.587Z",
+          "occasion": null,
+          "occasionNotes": null
+        },
+        "4f34c1be-d1fe-43b4-8d24-3cb1a9fc31b2": {
+          "name": "Cade Coppinger",
+          "contactMethod": "Meal",
+          "scheduledDate": "2026-06-12",
+          "source": "manual",
+          "completed": true,
+          "completedAt": "2026-06-12T14:43:24.605Z",
+          "occasion": "Bfast at Kubys",
+          "occasionNotes": null
+        }
+      },
+      "introReachedOut": {},
+      "followUps": []
+    },
+    "2026-06-15": {
+      "currentSlate": {
+        "51160d12-4c33-4199-8308-dacb125ada6e": {
+          "name": "Trevor Pownell",
+          "contactMethod": "Phone",
+          "scheduledDate": "2026-06-15",
+          "source": "manual",
+          "completed": false,
+          "completedAt": null,
+          "occasion": "Green Point Lunch",
+          "occasionNotes": "Congratulate on promotion"
+        },
+        "597fc53d-0b30-4ce3-81a7-84e117eb46a6": {
+          "name": "Logan Haire",
+          "contactMethod": "Phone",
+          "scheduledDate": "2026-06-18",
+          "source": "scheduled",
+          "completed": false,
+          "completedAt": null,
+          "occasion": null,
+          "occasionNotes": null
+        }
+      },
+      "introReachedOut": {},
+      "followUps": []
+    }
+  },
+  "thankyous": [],
+  "priorities": [],
+  "snapshots": {
+    "2026-06-08": {
       "priorities": [
         {
           "id": "c0d7f6f2-7aae-45f3-b8dd-8dcc1dad3658",
@@ -548,78 +654,6 @@
           "pinned": true
         }
       ],
-      "currentSlate": {
-        "a9391cf8-b0b7-45b0-a734-9f430176cfed": {
-          "name": "Mason Graham",
-          "contactMethod": "Phone",
-          "scheduledDate": "2026-06-12",
-          "source": "scheduled",
-          "completed": false,
-          "completedAt": null,
-          "occasion": "Drink at Cache",
-          "occasionNotes": "Congrats on house"
-        },
-        "a7b94ac8-dd00-47ff-bc91-800a0871e9cd": {
-          "name": "Chris Bybee",
-          "contactMethod": "Phone",
-          "scheduledDate": "2026-06-12",
-          "source": "scheduled",
-          "completed": false,
-          "completedAt": null,
-          "occasion": "Beer at Miller",
-          "occasionNotes": "Congrats on baby, promotion; ask advice on Claude, Monarch; search"
-        },
-        "6bc3fffd-a920-4d77-aaf0-1fd7f99ca7f2": {
-          "name": "Michael Field",
-          "contactMethod": "Phone",
-          "scheduledDate": "2026-06-09",
-          "source": "manual",
-          "completed": true,
-          "completedAt": "2026-06-11T16:48:01.741Z",
-          "occasion": "Dubliner",
-          "occasionNotes": "Working on a big time bitcoin trading model using Claude and Codex. Returned $11K from $2.2K\nBought ring for Yana - 3 carrot lab grown for $11K"
-        },
-        "0a2fbc74-2433-4033-8aa2-c4a4fc2bc677": {
-          "name": "Dante Gaudet",
-          "contactMethod": "Phone",
-          "scheduledDate": "2026-06-10",
-          "source": "manual",
-          "completed": true,
-          "completedAt": "2026-06-11T17:00:07.242Z",
-          "occasion": "Lunch at Olivia",
-          "occasionNotes": "June 10, 2026 · Lunch at Olivia\nHaving a baby with Amanda - due Nov 5 - married legally, going to be renting house together (hopefully in East Dallas)\nJust returned from Phillipines (where Amanda's family is from)\nWill need prayer for bringing Amanda to faith\nExploring Catholicism"
-        },
-        "d46ee2c4-4be4-4b12-b192-362ef72d1c1d": {
-          "name": "Jack Wright",
-          "contactMethod": "Phone",
-          "scheduledDate": "2026-06-11",
-          "source": "manual",
-          "completed": true,
-          "completedAt": "2026-06-11T19:24:20.238Z",
-          "occasion": "Breakfast at Kubys",
-          "occasionNotes": "Looking to jump from Firmament at EOY - concerned on how to do so elegantly\nAbout to move to Palo Alto - Annabelle dad paying for GSB; open question as to where they move afterward\nAnnabelle about to quit Climatic - will negotiate for vested equity on exit\nLoved trip to Africa and pace of day - felt much more like a vacation then planned, but still get up at 5 am every day and get escorted to bfast due to panthers"
-        },
-        "6e6ba7b0-bac6-4a8e-902a-fc3ff6bf1d6d": {
-          "name": "John Clayton",
-          "contactMethod": "Meal",
-          "scheduledDate": "2026-06-11",
-          "source": "scheduled",
-          "completed": true,
-          "completedAt": "2026-06-11T18:08:35.587Z",
-          "occasion": null,
-          "occasionNotes": null
-        },
-        "4f34c1be-d1fe-43b4-8d24-3cb1a9fc31b2": {
-          "name": "Cade Coppinger",
-          "contactMethod": "Meal",
-          "scheduledDate": "2026-06-12",
-          "source": "manual",
-          "completed": true,
-          "completedAt": "2026-06-12T14:43:24.605Z",
-          "occasion": "Bfast at Kubys",
-          "occasionNotes": null
-        }
-      },
       "mission": {
         "ghms": [
           {
@@ -677,41 +711,127 @@
             "week": "2026-06-08"
           }
         ]
-      },
-      "introReachedOut": {}
+      }
     },
     "2026-06-15": {
       "priorities": [],
-      "currentSlate": {
-        "51160d12-4c33-4199-8308-dacb125ada6e": {
-          "name": "Trevor Pownell",
-          "contactMethod": "Phone",
-          "scheduledDate": "2026-06-15",
-          "source": "manual",
-          "completed": false,
-          "completedAt": null,
-          "occasion": "Green Point Lunch",
-          "occasionNotes": "Congratulate on promotion"
-        },
-        "597fc53d-0b30-4ce3-81a7-84e117eb46a6": {
-          "name": "Logan Haire",
-          "contactMethod": "Phone",
-          "scheduledDate": "2026-06-18",
-          "source": "scheduled",
-          "completed": false,
-          "completedAt": null,
-          "occasion": null,
-          "occasionNotes": null
-        }
-      },
-      "introReachedOut": {},
-      "followUps": [],
       "mission": {
-        "ghms": [],
+        "ghms": [
+          {
+            "id": "dd621e2b-22a4-4b11-9a39-81e391f8b556",
+            "text": "Star Spangled Banner Playing at Dallas Cathedral",
+            "createdAt": "2026-06-10T22:39:23.075Z",
+            "week": "2026-06-08",
+            "title": "Star Spangled Banner Playing at Dallas Cathedral",
+            "notes": "After conversation with Dante about converting to Catholicism"
+          },
+          {
+            "id": "3c92f0d7-df82-499d-9d72-0db456228a4a",
+            "title": "Free Fedex Box for Revelyst Return",
+            "notes": "Was stressing over tearing apart the original box from Revelyst; guy at Fedex gave one for free",
+            "text": "Free Fedex Box for Revelyst Return",
+            "createdAt": "2026-06-11T01:56:04.647Z",
+            "week": "2026-06-08"
+          },
+          {
+            "id": "5c3edf31-05a4-40ac-a16e-62d5e4c19b50",
+            "title": "Henry reading Prov 10",
+            "notes": "Henry read Prov 10 the same morning I sent him Prov 17:21, verse about parenting",
+            "text": "Henry reading Prov 10",
+            "createdAt": "2026-06-11T01:56:27.684Z",
+            "week": "2026-06-08"
+          }
+        ],
         "memoryVerses": [],
-        "notes": []
+        "notes": [
+          {
+            "id": "1ffaa530-24cb-4dc1-9bc6-896d2cf31a79",
+            "text": "Look into \"AutoResearch\" Claude Plugin - per Field's Advice",
+            "completed": false,
+            "completedAt": null,
+            "followUp": false,
+            "createdAt": "2026-06-11T01:56:48.605Z",
+            "week": "2026-06-08"
+          },
+          {
+            "id": "8a4c105d-cf3c-4758-b47d-310c9faa3b78",
+            "text": "Steven Talkhouse - Bar Recommended by John John",
+            "completed": false,
+            "completedAt": null,
+            "followUp": false,
+            "createdAt": "2026-06-11T16:05:36.894Z",
+            "week": "2026-06-08"
+          },
+          {
+            "id": "fa158da0-c778-4c49-850c-abad4f94dab5",
+            "text": "McGuire Woods - Independent Sponsor Summit - Recommended by Dubs",
+            "completed": false,
+            "completedAt": null,
+            "followUp": false,
+            "createdAt": "2026-06-11T16:05:48.181Z",
+            "week": "2026-06-08"
+          }
+        ]
       }
     }
   },
-  "thankyous": []
+  "mission": {
+    "ghms": [
+      {
+        "id": "dd621e2b-22a4-4b11-9a39-81e391f8b556",
+        "text": "Star Spangled Banner Playing at Dallas Cathedral",
+        "createdAt": "2026-06-10T22:39:23.075Z",
+        "week": "2026-06-08",
+        "title": "Star Spangled Banner Playing at Dallas Cathedral",
+        "notes": "After conversation with Dante about converting to Catholicism"
+      },
+      {
+        "id": "3c92f0d7-df82-499d-9d72-0db456228a4a",
+        "title": "Free Fedex Box for Revelyst Return",
+        "notes": "Was stressing over tearing apart the original box from Revelyst; guy at Fedex gave one for free",
+        "text": "Free Fedex Box for Revelyst Return",
+        "createdAt": "2026-06-11T01:56:04.647Z",
+        "week": "2026-06-08"
+      },
+      {
+        "id": "5c3edf31-05a4-40ac-a16e-62d5e4c19b50",
+        "title": "Henry reading Prov 10",
+        "notes": "Henry read Prov 10 the same morning I sent him Prov 17:21, verse about parenting",
+        "text": "Henry reading Prov 10",
+        "createdAt": "2026-06-11T01:56:27.684Z",
+        "week": "2026-06-08"
+      }
+    ],
+    "memoryVerses": [],
+    "notes": [
+      {
+        "id": "1ffaa530-24cb-4dc1-9bc6-896d2cf31a79",
+        "text": "Look into \"AutoResearch\" Claude Plugin - per Field's Advice",
+        "completed": false,
+        "completedAt": null,
+        "followUp": false,
+        "createdAt": "2026-06-11T01:56:48.605Z",
+        "week": "2026-06-08"
+      },
+      {
+        "id": "8a4c105d-cf3c-4758-b47d-310c9faa3b78",
+        "text": "Steven Talkhouse - Bar Recommended by John John",
+        "completed": false,
+        "completedAt": null,
+        "followUp": false,
+        "createdAt": "2026-06-11T16:05:36.894Z",
+        "week": "2026-06-08"
+      },
+      {
+        "id": "fa158da0-c778-4c49-850c-abad4f94dab5",
+        "text": "McGuire Woods - Independent Sponsor Summit - Recommended by Dubs",
+        "completed": false,
+        "completedAt": null,
+        "followUp": false,
+        "createdAt": "2026-06-11T16:05:48.181Z",
+        "week": "2026-06-08"
+      }
+    ]
+  },
+  "activeWeek": "2026-06-08"
 }
