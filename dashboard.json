@@ -606,8 +606,8 @@
           "contactMethod": "Meal",
           "scheduledDate": "2026-06-12",
           "source": "manual",
-          "completed": false,
-          "completedAt": null,
+          "completed": true,
+          "completedAt": "2026-06-12T14:43:24.605Z",
           "occasion": "Bfast at Kubys",
           "occasionNotes": null
         }
