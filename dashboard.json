@@ -569,16 +569,6 @@
           "occasion": "Beer at Miller",
           "occasionNotes": "Congrats on baby, promotion; ask advice on Claude, Monarch; search"
         },
-        "51160d12-4c33-4199-8308-dacb125ada6e": {
-          "name": "Trevor Pownell",
-          "contactMethod": "Phone",
-          "scheduledDate": "2026-06-12",
-          "source": "manual",
-          "completed": false,
-          "completedAt": null,
-          "occasion": "Green Point Lunch",
-          "occasionNotes": "Congratulate on promotion"
-        },
         "6bc3fffd-a920-4d77-aaf0-1fd7f99ca7f2": {
           "name": "Michael Field",
           "contactMethod": "Phone",
@@ -689,6 +679,28 @@
         ]
       },
       "introReachedOut": {}
+    },
+    "2026-06-15": {
+      "priorities": [],
+      "currentSlate": {
+        "51160d12-4c33-4199-8308-dacb125ada6e": {
+          "name": "Trevor Pownell",
+          "contactMethod": "Phone",
+          "scheduledDate": "2026-06-15",
+          "source": "manual",
+          "completed": false,
+          "completedAt": null,
+          "occasion": "Green Point Lunch",
+          "occasionNotes": "Congratulate on promotion"
+        }
+      },
+      "introReachedOut": {},
+      "followUps": [],
+      "mission": {
+        "ghms": [],
+        "memoryVerses": [],
+        "notes": []
+      }
     }
   },
   "thankyous": []
