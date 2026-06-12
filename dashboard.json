@@ -515,6 +515,21 @@
           "completedAt": "2026-06-12T15:09:19.727Z",
           "createdWeek": "2026-06-08",
           "carriedForward": false
+        },
+        {
+          "id": "430867a4-d9ff-4fd2-b675-ec54f7b295b2",
+          "text": "Brunch on Saturday",
+          "category": "Life",
+          "subcategory": "San Diego Trip",
+          "priority": "Low",
+          "loe": "Low",
+          "taskStatus": "Not Started",
+          "isRecurring": false,
+          "recurringCadence": null,
+          "completed": false,
+          "completedAt": null,
+          "createdWeek": "2026-06-08",
+          "carriedForward": false
         }
       ],
       "currentSlate": {
