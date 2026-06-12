@@ -71,7 +71,7 @@
           "completed": true,
           "completedAt": "2026-06-11T17:00:07.242Z",
           "occasion": "Lunch at Olivia",
-          "occasionNotes": "June 10, 2026 \u00b7 Lunch at Olivia\nHaving a baby with Amanda - due Nov 5 - married legally, going to be renting house together (hopefully in East Dallas)\nJust returned from Phillipines (where Amanda's family is from)\nWill need prayer for bringing Amanda to faith\nExploring Catholicism"
+          "occasionNotes": "June 10, 2026 · Lunch at Olivia\nHaving a baby with Amanda - due Nov 5 - married legally, going to be renting house together (hopefully in East Dallas)\nJust returned from Phillipines (where Amanda's family is from)\nWill need prayer for bringing Amanda to faith\nExploring Catholicism"
         },
         "d46ee2c4-4be4-4b12-b192-362ef72d1c1d": {
           "name": "Jack Wright",
@@ -598,8 +598,8 @@
       "taskStatus": "Not Started",
       "isRecurring": false,
       "recurringCadence": null,
-      "completed": false,
-      "completedAt": null,
+      "completed": true,
+      "completedAt": "2026-06-12T17:07:22.383Z",
       "createdWeek": "2026-06-08",
       "carriedForward": false,
       "pinned": true
