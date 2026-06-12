@@ -600,6 +600,16 @@
           "completedAt": "2026-06-11T18:08:35.587Z",
           "occasion": null,
           "occasionNotes": null
+        },
+        "4f34c1be-d1fe-43b4-8d24-3cb1a9fc31b2": {
+          "name": "Cade Coppinger",
+          "contactMethod": "Meal",
+          "scheduledDate": "2026-06-12",
+          "source": "manual",
+          "completed": false,
+          "completedAt": null,
+          "occasion": "Bfast at Kubys",
+          "occasionNotes": null
         }
       },
       "mission": {
