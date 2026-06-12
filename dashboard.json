@@ -530,6 +530,21 @@
           "completedAt": null,
           "createdWeek": "2026-06-08",
           "carriedForward": false
+        },
+        {
+          "id": "306875c5-9649-4932-83b1-04552c8d6ec2",
+          "text": "Answer Summit Questions",
+          "category": "Work",
+          "subcategory": "AA_Partnership",
+          "priority": "Low",
+          "loe": "Low",
+          "taskStatus": "Not Started",
+          "isRecurring": false,
+          "recurringCadence": null,
+          "completed": false,
+          "completedAt": null,
+          "createdWeek": "2026-06-08",
+          "carriedForward": false
         }
       ],
       "currentSlate": {
