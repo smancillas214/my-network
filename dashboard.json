@@ -692,6 +692,16 @@
           "completedAt": null,
           "occasion": "Green Point Lunch",
           "occasionNotes": "Congratulate on promotion"
+        },
+        "597fc53d-0b30-4ce3-81a7-84e117eb46a6": {
+          "name": "Logan Haire",
+          "contactMethod": "Phone",
+          "scheduledDate": "2026-06-18",
+          "source": "scheduled",
+          "completed": false,
+          "completedAt": null,
+          "occasion": null,
+          "occasionNotes": null
         }
       },
       "introReachedOut": {},
