@@ -544,7 +544,8 @@
           "completed": false,
           "completedAt": null,
           "createdWeek": "2026-06-08",
-          "carriedForward": false
+          "carriedForward": false,
+          "pinned": true
         }
       ],
       "currentSlate": {
