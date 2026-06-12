@@ -1812,8 +1812,13 @@
     "manualStatus": null,
     "scheduledDate": null,
     "onHold": false,
-    "tags": [],
-    "cadenceDays": 30,
-    "priority": "Medium"
+    "tags": [
+      "SRS; A&M; BCG"
+    ],
+    "cadenceDays": 60,
+    "priority": "Medium",
+    "location": "Dallas",
+    "lastContactedDate": "2026-06-12",
+    "notes": ""
   }
 ]
