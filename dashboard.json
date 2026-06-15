@@ -126,8 +126,8 @@
           "source": "scheduled",
           "completed": false,
           "completedAt": null,
-          "occasion": null,
-          "occasionNotes": null
+          "occasion": "Dinner at Ospi",
+          "occasionNotes": "Dinner with Rawley and wives"
         },
         "d397b0cd-96ff-4660-8d89-62ce9c8eabb8": {
           "name": "Eduardo Zaldivar",
