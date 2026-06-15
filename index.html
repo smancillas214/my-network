@@ -118,6 +118,9 @@ a { color: var(--accent); text-decoration: none; cursor: pointer; }
 
 /* sections inside columns */
 .sec { margin-bottom: 18px; }
+.mission-add-form { display: flex; gap: 6px; align-items: flex-start; width: 100%; margin-bottom: 10px; }
+.mission-add-form input, .mission-add-form textarea { flex: 1; min-width: 0; }
+.mission-add-form textarea { resize: vertical; }
 .sec-h { display: flex; align-items: center; justify-content: space-between; margin-bottom: 6px; }
 .sec-h h3 { font-size: .78rem; text-transform: uppercase; letter-spacing: .07em; color: var(--text-2); }
 .sec-h .cnt { font-size: .72rem; color: var(--text-2); background: var(--surface-2); border-radius: 99px; padding: 1px 8px; }
@@ -1524,9 +1527,9 @@ function renderMission(ro) {
   html += '<div class="sec"><div class="sec-h"><h3>GHMs — God Honored Moments</h3><span class="cnt">' + ghms.length + '</span></div>';
   if (!ro) {
     html += '<div class="mission-add-form">' +
-      '<input id="ghmTitle" placeholder="Title..." style="margin-bottom:6px">' +
+      '<input id="ghmTitle" placeholder="Title...">' +
       '<textarea id="ghmNotes" placeholder="Notes (optional)..." rows="2"></textarea>' +
-      '<button class="btn sm primary" onclick="addGhm()" style="margin-top:6px;align-self:flex-end">Add</button></div>';
+      '<button class="btn sm primary" onclick="addGhm()" style="align-self:flex-start;flex:none">Add</button></div>';
   }
   if (!ghms.length) html += '<div class="empty">No moments recorded yet</div>';
   ghms.forEach(g => {
@@ -1547,10 +1550,10 @@ function renderMission(ro) {
   html += '<div class="sec"><div class="sec-h"><h3>Memory Verses</h3><span class="cnt">' + verses.length + '</span></div>';
   if (!ro) {
     html += '<div class="mission-add-form">' +
-      '<input id="verseRef" placeholder="Reference (e.g. John 3:16)..." style="margin-bottom:6px">' +
-      '<textarea id="verseText" placeholder="Verse text..." rows="3"></textarea>' +
-      '<input id="verseMeaning" placeholder="Meaning / why this matters (optional)..." style="margin-top:6px">' +
-      '<button class="btn sm primary" onclick="addVerse()" style="margin-top:6px;align-self:flex-end">Add</button></div>';
+      '<input id="verseRef" placeholder="Reference (e.g. John 3:16)..." style="flex:0 0 160px">' +
+      '<textarea id="verseText" placeholder="Verse text..." rows="2"></textarea>' +
+      '<input id="verseMeaning" placeholder="Why this matters (optional)...">' +
+      '<button class="btn sm primary" onclick="addVerse()" style="align-self:flex-start;flex:none">Add</button></div>';
   }
   if (!verses.length) html += '<div class="empty">Nothing yet</div>';
   verses.forEach(v => {
@@ -1570,9 +1573,9 @@ function renderMission(ro) {
   const notes = mis.notes.slice().sort((a,b) => new Date(b.createdAt)-new Date(a.createdAt));
   html += '<div class="sec"><div class="sec-h"><h3>Notes</h3><span class="cnt">' + notes.length + '</span></div>';
   if (!ro) {
-    html += '<div class="frow" style="margin-bottom:8px">' +
-      '<input id="noteText" placeholder="Add a note..." style="flex:1" onkeydown="if(event.key===\'Enter\')addNote()">' +
-      '<button class="btn sm primary" onclick="addNote()">Add</button></div>';
+    html += '<div class="mission-add-form">' +
+      '<input id="noteText" placeholder="Add a note..." onkeydown="if(event.key===\'Enter\')addNote()">' +
+      '<button class="btn sm primary" onclick="addNote()" style="flex:none">Add</button></div>';
   }
   if (!notes.length) html += '<div class="empty">No notes yet</div>';
   notes.forEach(n => {
