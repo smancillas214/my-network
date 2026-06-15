@@ -1709,7 +1709,14 @@
   },
   {
     "id": "51160d12-4c33-4199-8308-dacb125ada6e",
-    "conversationHistory": [],
+    "conversationHistory": [
+      {
+        "id": "6db46c54-1ff8-453c-909e-5e5a0af84fcb",
+        "date": "2026-06-15",
+        "note": "Congratulate on promotion",
+        "occasion": "Green Point Lunch"
+      }
+    ],
     "manualStatus": null,
     "scheduledDate": null,
     "onHold": false,
@@ -1719,7 +1726,7 @@
     "location": "Dallas",
     "contactMethod": "Phone",
     "cadenceDays": 90,
-    "lastContactedDate": "2026-02-17",
+    "lastContactedDate": "2026-06-15",
     "tags": [
       "wisdom",
       "Bain",
