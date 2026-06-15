@@ -134,7 +134,15 @@
       "followUps": []
     }
   },
-  "thankyous": [],
+  "thankyous": [
+    {
+      "id": "8cf2b840-de77-44d2-9e6f-c988b3d6b470",
+      "text": "Bybee for Beer at Old Monk",
+      "completed": false,
+      "completedAt": null,
+      "createdAt": "2026-06-15T20:47:29.601Z"
+    }
+  ],
   "priorities": [
     {
       "id": "c0d7f6f2-7aae-45f3-b8dd-8dcc1dad3658",
