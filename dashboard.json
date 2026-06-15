@@ -141,7 +141,17 @@
         }
       },
       "introReachedOut": {},
-      "followUps": []
+      "followUps": [
+        {
+          "id": "304c1d2a-8c86-4db3-a98c-5942b0da2d37",
+          "contactId": "d397b0cd-96ff-4660-8d89-62ce9c8eabb8",
+          "contactName": "Eduardo Zaldivar",
+          "action": "Request Introductions",
+          "notes": "",
+          "completed": false,
+          "completedAt": null
+        }
+      ]
     }
   },
   "thankyous": [
