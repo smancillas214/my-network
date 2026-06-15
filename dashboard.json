@@ -701,6 +701,21 @@
       "createdWeek": "2026-06-08",
       "carriedForward": false,
       "pinned": true
+    },
+    {
+      "id": "34d9bb9a-b551-43c6-8ed4-2e4f1a75ab89",
+      "text": "Gift for George",
+      "category": "Life",
+      "subcategory": "Colorado 4oJ",
+      "priority": "Low",
+      "loe": "Medium",
+      "taskStatus": "Not Started",
+      "isRecurring": false,
+      "recurringCadence": null,
+      "completed": false,
+      "completedAt": null,
+      "createdWeek": "2026-06-15",
+      "carriedForward": false
     }
   ],
   "snapshots": {
