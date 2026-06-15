@@ -114,8 +114,8 @@
           "contactMethod": "Phone",
           "scheduledDate": "2026-06-15",
           "source": "manual",
-          "completed": true,
-          "completedAt": "2026-06-15T21:49:45.601Z",
+          "completed": false,
+          "completedAt": null,
           "occasion": "Green Point Lunch",
           "occasionNotes": "Congratulate on promotion"
         },
