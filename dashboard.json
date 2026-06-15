@@ -732,6 +732,21 @@
       "createdWeek": "2026-06-15",
       "carriedForward": false,
       "pinned": true
+    },
+    {
+      "id": "aa302137-7228-4f88-9c8d-73bd2407c009",
+      "text": "Venmo - Cole for Miller / Thai",
+      "category": "Work",
+      "subcategory": "Budget",
+      "priority": "High",
+      "loe": "Low",
+      "taskStatus": "Not Started",
+      "isRecurring": false,
+      "recurringCadence": null,
+      "completed": false,
+      "completedAt": null,
+      "createdWeek": "2026-06-15",
+      "carriedForward": false
     }
   ],
   "snapshots": {
