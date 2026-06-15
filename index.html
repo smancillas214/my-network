@@ -820,7 +820,7 @@ function render() {
   renderHeader();
   if (!dash) return;
   if (currentTab === "dash") renderDash();
-  else renderContactsView();
+  else renderContacts();
 }
 
 function init() {
@@ -833,8 +833,8 @@ function init() {
   $("tabContacts").onclick = () => switchTab("contacts");
   $("openContacts").onclick = () => switchTab("contacts");
   $("btnAddContact").onclick = () => openEditContact(null);
-  $("cSearch").oninput = e => { cFilter.q = e.target.value.toLowerCase(); renderContactsView(); };
-  $("cSort").onchange = e => { cFilter.sort = e.target.value; renderContactsView(); };
+  $("cSearch").oninput = e => { cFilter.q = e.target.value.toLowerCase(); renderContacts(); };
+  $("cSort").onchange = e => { cFilter.sort = e.target.value; renderContacts(); };
 
   try { priCollapsed = JSON.parse(sessionStorage.getItem("priCollapsed") || "{}"); } catch(e) { priCollapsed = {}; }
 
