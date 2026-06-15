@@ -263,11 +263,15 @@ a { color: var(--accent); text-decoration: none; cursor: pointer; }
 
 /* ---------- Contacts view ---------- */
 #view-contacts { flex: 1; overflow-y: auto; padding: 16px 20px; display: none; }
-#cToolbar { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; margin-bottom: 14px; max-width: 1100px; margin-left: auto; margin-right: auto; }
+#cToolbar { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; margin-bottom: 10px; max-width: 1100px; margin-left: auto; margin-right: auto; }
 #cSearch { flex: 1; min-width: 220px; }
+#cFilterBar { max-width: 1100px; margin: 0 auto 14px; display: flex; flex-direction: column; gap: 8px; }
+.filter-row { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.filter-label { font-size: .72rem; font-weight: 700; color: var(--text-2); text-transform: uppercase; letter-spacing: .05em; min-width: 58px; }
 #cList { max-width: 1100px; margin: 0 auto; }
-.chips { display: flex; gap: 6px; }
+.chips { display: flex; gap: 6px; flex-wrap: wrap; }
 .chip { border: 1px solid var(--border); background: var(--surface); color: var(--text-2); border-radius: 99px; padding: 4px 12px; font-size: .8rem; font-weight: 600; }
+.chip:hover { border-color: var(--accent); color: var(--accent); }
 .chip.active { background: var(--accent); border-color: var(--accent); color: #fff; }
 .grp-h { display: flex; align-items: center; gap: 8px; margin: 18px 0 6px; font-size: .85rem; font-weight: 700; }
 .grp-h .cnt { font-size: .72rem; color: var(--text-2); font-weight: 600; }
@@ -366,14 +370,44 @@ a { color: var(--accent); text-decoration: none; cursor: pointer; }
 <main id="view-contacts">
   <div id="cToolbar">
     <input id="cSearch" type="search" placeholder="Search contacts…">
-    <div class="chips" id="cChips"></div>
     <select id="cSort">
       <option value="overdue">Overdue first</option>
       <option value="alpha">Name A–Z</option>
-      <option value="priority">Priority</option>
       <option value="last">Last contacted</option>
+      <option value="priority">Priority</option>
     </select>
     <button class="btn primary" id="btnAddContact">+ Add Contact</button>
+  </div>
+  <div id="cFilterBar">
+    <div class="filter-row" id="fRowType">
+      <span class="filter-label">Type</span>
+      <div class="chips">
+        <button class="chip active" data-filter="type" data-val="All">All</button>
+        <button class="chip" data-filter="type" data-val="Friend">Friend</button>
+        <button class="chip" data-filter="type" data-val="Mentor">Mentor</button>
+        <button class="chip" data-filter="type" data-val="Mentee">Mentee</button>
+        <button class="chip" data-filter="type" data-val="Reach Out">Reach Out</button>
+      </div>
+    </div>
+    <div class="filter-row" id="fRowStatus">
+      <span class="filter-label">Status</span>
+      <div class="chips">
+        <button class="chip active" data-filter="status" data-val="">All</button>
+        <button class="chip" data-filter="status" data-val="Overdue">Overdue</button>
+        <button class="chip" data-filter="status" data-val="Reached Out">Reached Out</button>
+        <button class="chip" data-filter="status" data-val="Scheduled">Scheduled</button>
+        <button class="chip" data-filter="status" data-val="On Track">On Track</button>
+        <button class="chip" data-filter="status" data-val="On Hold">On Hold</button>
+      </div>
+    </div>
+    <div class="filter-row" id="fRowLocation">
+      <span class="filter-label">Location</span>
+      <div class="chips" id="fChipsLocation"></div>
+    </div>
+    <div class="filter-row" id="fRowTags">
+      <span class="filter-label">Tags</span>
+      <div class="chips" id="fChipsTags"></div>
+    </div>
   </div>
   <div id="cList"></div>
 </main>
@@ -396,7 +430,7 @@ let contacts = [], contactsSha = null;
 let dash = null, dashSha = null;
 let viewedWeek = null;
 let currentTab = "dash";
-let cFilter = { q: "", type: "All", sort: "overdue" };
+let cFilter = { q: "", type: "All", sort: "overdue", tags: [], location: "", status: "" };
 let comFilter = { loc: "", tag: "" };
 // collapsed state for priority top-level cats and subcats (persisted in sessionStorage)
 let priCollapsed = {};
@@ -787,6 +821,7 @@ async function loadAll() {
   const cRes = await ghGet("data.json");
   if (!cRes) { const e = new Error("no data.json"); e.status = 404; throw e; }
   contacts = cRes.data; contactsSha = cRes.sha;
+  buildFilterChips();
   let dRes = await ghGet("dashboard.json");
   if (!dRes) {
     dash = defaultDash();
@@ -835,6 +870,27 @@ function init() {
   $("btnAddContact").onclick = () => openEditContact(null);
   $("cSearch").oninput = e => { cFilter.q = e.target.value.toLowerCase(); renderContacts(); };
   $("cSort").onchange = e => { cFilter.sort = e.target.value; renderContacts(); };
+  document.getElementById("cFilterBar").addEventListener("click", e => {
+    const btn = e.target.closest(".chip[data-filter]");
+    if (!btn) return;
+    const filter = btn.dataset.filter;
+    const val = btn.dataset.val;
+    if (filter === "type") {
+      cFilter.type = val;
+      btn.closest(".chips").querySelectorAll(".chip").forEach(c => c.classList.toggle("active", c.dataset.val === val));
+    } else if (filter === "status") {
+      cFilter.status = val;
+      btn.closest(".chips").querySelectorAll(".chip").forEach(c => c.classList.toggle("active", c.dataset.val === val));
+    } else if (filter === "location") {
+      cFilter.location = cFilter.location === val ? "" : val;
+      btn.classList.toggle("active", cFilter.location === val);
+    } else if (filter === "tag") {
+      const idx = cFilter.tags.indexOf(val);
+      if (idx === -1) cFilter.tags.push(val); else cFilter.tags.splice(idx, 1);
+      btn.classList.toggle("active", cFilter.tags.includes(val));
+    }
+    renderContacts();
+  });
 
   try { priCollapsed = JSON.parse(sessionStorage.getItem("priCollapsed") || "{}"); } catch(e) { priCollapsed = {}; }
 
@@ -1592,18 +1648,49 @@ function delThankYou(id) {
   saveDash(); render();
 }
 
+/* ================= Contact filter chips ================= */
+function buildFilterChips() {
+  // Locations
+  const locs = [...new Set(contacts.map(c => c.location).filter(Boolean))].sort();
+  const locContainer = $("fChipsLocation");
+  locContainer.innerHTML = locs.map(l =>
+    `<button class="chip${cFilter.location === l ? ' active' : ''}" data-filter="location" data-val="${esc(l)}">${esc(l)}</button>`
+  ).join('');
+
+  // Tags
+  const tagSet = new Set();
+  contacts.forEach(c => (c.tags||[]).forEach(t => tagSet.add(t)));
+  const tags = [...tagSet].sort();
+  const tagContainer = $("fChipsTags");
+  tagContainer.innerHTML = tags.map(t =>
+    `<button class="chip${cFilter.tags.includes(t) ? ' active' : ''}" data-filter="tag" data-val="${esc(t)}">${esc(t)}</button>`
+  ).join('');
+}
+
 /* ================= Contact view (All Contacts tab) ================= */
 function renderContacts() {
   const q = cFilter.q.toLowerCase();
-  const tp = cFilter.type;
   const sorted = contacts.filter(c => {
-    if (tp !== "All" && typeOf(c) !== tp) return false;
-    if (q && !c.name.toLowerCase().includes(q) && !(c.notes||"").toLowerCase().includes(q)) return false;
+    if (cFilter.type !== "All" && typeOf(c) !== cFilter.type) return false;
+    if (cFilter.status) { if (autoStatus(c) !== cFilter.status) return false; }
+    if (cFilter.location && c.location !== cFilter.location) return false;
+    if (cFilter.tags.length && !cFilter.tags.every(t => (c.tags||[]).includes(t))) return false;
+    if (q && !c.name.toLowerCase().includes(q) && !(c.notes||"").toLowerCase().includes(q) &&
+        !(c.location||"").toLowerCase().includes(q)) return false;
     return true;
   }).sort((a,b) => {
-    if (cFilter.sort === "name") return a.name.localeCompare(b.name);
-    if (cFilter.sort === "overdue") return daysUntilNext(a) - daysUntilNext(b);
-    return 0;
+    if (cFilter.sort === "alpha") return a.name.localeCompare(b.name);
+    if (cFilter.sort === "last") {
+      const da = a.lastContactedDate ? new Date(a.lastContactedDate) : new Date(0);
+      const db = b.lastContactedDate ? new Date(b.lastContactedDate) : new Date(0);
+      return db - da;
+    }
+    if (cFilter.sort === "priority") {
+      const order = { High: 0, Medium: 1, Low: 2 };
+      return (order[a.priority]??3) - (order[b.priority]??3);
+    }
+    // overdue first (default)
+    return daysUntilNext(a) - daysUntilNext(b);
   });
   const maintain = sorted.filter(c => !isReachOut(c));
   const reachOut = sorted.filter(isReachOut);
