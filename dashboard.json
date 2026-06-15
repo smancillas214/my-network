@@ -778,6 +778,21 @@
       "completedAt": null,
       "createdWeek": "2026-06-15",
       "carriedForward": false
+    },
+    {
+      "id": "9212d0c4-b889-482d-b341-2506b598054e",
+      "text": "Date Recollection",
+      "category": "Life",
+      "subcategory": "Callie",
+      "priority": "Low",
+      "loe": "Low",
+      "taskStatus": "Not Started",
+      "isRecurring": false,
+      "recurringCadence": null,
+      "completed": false,
+      "completedAt": null,
+      "createdWeek": "2026-06-15",
+      "carriedForward": false
     }
   ],
   "snapshots": {
