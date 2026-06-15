@@ -1835,7 +1835,10 @@
     "cadenceDays": 45,
     "lastContactedDate": "2026-02-23",
     "tags": [
-      "wisdom; A&M; search; connector"
+      "wisdom",
+      "A&M",
+      "search",
+      "connector"
     ],
     "notes": ""
   }
