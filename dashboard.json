@@ -134,8 +134,8 @@
           "contactMethod": "Meal",
           "scheduledDate": "2026-06-15",
           "source": "manual",
-          "completed": false,
-          "completedAt": null,
+          "completed": true,
+          "completedAt": "2026-06-15T21:51:43.975Z",
           "occasion": "Coffee at Village Coffee Bar",
           "occasionNotes": "Very informative on search process; helping me understand 7a dynamics; 0% APR credit card; broker relationships; investor dynamics; mentioned that as soon as you can pick a lane, faster things happen; he said leverage AI for broker relationships; focus on brokers is a good thing"
         }
