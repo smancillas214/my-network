@@ -748,6 +748,21 @@
       "createdWeek": "2026-06-15",
       "carriedForward": false,
       "pinned": true
+    },
+    {
+      "id": "8314d9b4-9aa7-40d1-94e7-13a242b265a0",
+      "text": "SFT Receipt",
+      "category": "Life",
+      "subcategory": "A_Misc",
+      "priority": "Low",
+      "loe": "Low",
+      "taskStatus": "Not Started",
+      "isRecurring": false,
+      "recurringCadence": null,
+      "completed": false,
+      "completedAt": null,
+      "createdWeek": "2026-06-15",
+      "carriedForward": false
     }
   ],
   "snapshots": {
