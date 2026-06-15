@@ -38,8 +38,8 @@
           "contactMethod": "Phone",
           "scheduledDate": "2026-06-12",
           "source": "scheduled",
-          "completed": false,
-          "completedAt": null,
+          "completed": true,
+          "completedAt": "2026-06-15T20:45:04.354Z",
           "occasion": "Drink at Cache",
           "occasionNotes": "Congrats on house"
         },
