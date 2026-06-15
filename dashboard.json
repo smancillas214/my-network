@@ -716,6 +716,21 @@
       "completedAt": null,
       "createdWeek": "2026-06-15",
       "carriedForward": false
+    },
+    {
+      "id": "4d09da17-02ed-4412-9728-ba9cb0c8204b",
+      "text": "Venmos - Waymo",
+      "category": "Work",
+      "subcategory": "Budget",
+      "priority": "High",
+      "loe": "Low",
+      "taskStatus": "Not Started",
+      "isRecurring": false,
+      "recurringCadence": null,
+      "completed": false,
+      "completedAt": null,
+      "createdWeek": "2026-06-15",
+      "carriedForward": false
     }
   ],
   "snapshots": {
