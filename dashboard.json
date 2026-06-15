@@ -1414,8 +1414,8 @@
       {
         "id": "8a4c105d-cf3c-4758-b47d-310c9faa3b78",
         "text": "Steven Talkhouse - Bar Recommended by John John",
-        "completed": false,
-        "completedAt": null,
+        "completed": true,
+        "completedAt": "2026-06-15T22:08:29.538Z",
         "followUp": false,
         "createdAt": "2026-06-11T16:05:36.894Z",
         "week": "2026-06-08"
