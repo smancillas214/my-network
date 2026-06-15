@@ -643,6 +643,34 @@
     "onHold": false
   },
   {
+    "id": "d397b0cd-96ff-4660-8d89-62ce9c8eabb8",
+    "conversationHistory": [
+      {
+        "id": "ed1e0bf7-0720-430e-b70f-1e384c18f157",
+        "date": "2026-06-15",
+        "note": "Very informative on search process; helping me understand 7a dynamics; 0% APR credit card; broker relationships; investor dynamics; mentioned that as soon as you can pick a lane, faster things happen; he said leverage AI for broker relationships; focus on brokers is a good thing",
+        "occasion": "Coffee at Village Coffee Bar"
+      }
+    ],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false,
+    "name": "Eduardo Zaldivar",
+    "type": "Mentor",
+    "priority": "High",
+    "location": "Dallas",
+    "contactMethod": "Meal",
+    "cadenceDays": 45,
+    "lastContactedDate": "2026-06-15",
+    "tags": [
+      "wisdom",
+      "A&M",
+      "search",
+      "connector"
+    ],
+    "notes": ""
+  },
+  {
     "id": "fd50305a-6801-4a0f-b290-66c705b57aa7",
     "name": "Eliot Kerlin",
     "location": "Dallas",
@@ -1711,6 +1739,12 @@
     "id": "51160d12-4c33-4199-8308-dacb125ada6e",
     "conversationHistory": [
       {
+        "id": "9488dcb6-79cf-4a40-95d2-6ea3dad4f209",
+        "date": "2026-06-15",
+        "note": "Discussed range, mentioned that 3.5x would be very hard to find; he's seeking more independent sponsor path; focus on 4x - 5x range; says that he has solid brokers to connect with that see a lot of volume",
+        "occasion": "Green Point Lunch"
+      },
+      {
         "id": "6db46c54-1ff8-453c-909e-5e5a0af84fcb",
         "date": "2026-06-15",
         "note": "Congratulate on promotion",
@@ -1831,24 +1865,19 @@
     "onHold": false
   },
   {
-    "id": "d397b0cd-96ff-4660-8d89-62ce9c8eabb8",
+    "id": "21303a54-10dd-433a-9d29-929ae80d37d6",
     "conversationHistory": [],
     "manualStatus": null,
     "scheduledDate": null,
     "onHold": false,
-    "name": "Eduardo Zaldivar",
-    "type": "Mentor",
-    "priority": "High",
+    "name": "Joe Riney",
+    "type": "Reach Out",
+    "priority": "Medium",
     "location": "Dallas",
     "contactMethod": "Meal",
-    "cadenceDays": 45,
-    "lastContactedDate": "2026-02-23",
-    "tags": [
-      "wisdom",
-      "A&M",
-      "search",
-      "connector"
-    ],
+    "cadenceDays": 180,
+    "lastContactedDate": "2024-01-17",
+    "tags": [],
     "notes": ""
   }
 ]
