@@ -128,6 +128,16 @@
           "completedAt": null,
           "occasion": null,
           "occasionNotes": null
+        },
+        "d397b0cd-96ff-4660-8d89-62ce9c8eabb8": {
+          "name": "Eduardo Zaldivar",
+          "contactMethod": "Meal",
+          "scheduledDate": "2026-06-15",
+          "source": "manual",
+          "completed": false,
+          "completedAt": null,
+          "occasion": "Coffee at Village Coffee Bar",
+          "occasionNotes": "Very informative on search process; helping me understand 7a dynamics; 0% APR credit card; broker relationships; investor dynamics"
         }
       },
       "introReachedOut": {},
