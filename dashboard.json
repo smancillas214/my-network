@@ -1403,6 +1403,15 @@
     "memoryVerses": [],
     "notes": [
       {
+        "id": "17d92192-78bc-4032-a8f3-3e703765432e",
+        "text": "Granola / Whispr Combo per Bybee Rec",
+        "completed": false,
+        "completedAt": null,
+        "followUp": false,
+        "createdAt": "2026-06-15T22:10:39.891Z",
+        "week": "2026-06-15"
+      },
+      {
         "id": "1ffaa530-24cb-4dc1-9bc6-896d2cf31a79",
         "text": "Look into \"AutoResearch\" Claude Plugin - per Field's Advice",
         "completed": false,
