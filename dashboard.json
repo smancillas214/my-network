@@ -114,8 +114,8 @@
           "contactMethod": "Phone",
           "scheduledDate": "2026-06-15",
           "source": "manual",
-          "completed": false,
-          "completedAt": null,
+          "completed": true,
+          "completedAt": "2026-06-15T21:51:40.808Z",
           "occasion": "Green Point Lunch",
           "occasionNotes": "Discussed range, mentioned that 3.5x would be very hard to find; he's seeking more independent sponsor path; focus on 4x - 5x range; says that he has solid brokers to connect with that see a lot of volume"
         },
