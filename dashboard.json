@@ -833,6 +833,21 @@
       "completedAt": null,
       "createdWeek": "2026-06-15",
       "carriedForward": false
+    },
+    {
+      "id": "aff7c5a0-4ca3-4d05-bbf0-2fcfdae68fdf",
+      "text": "Close out Copilot Money",
+      "category": "Life",
+      "subcategory": "A_Misc",
+      "priority": "Low",
+      "loe": "Low",
+      "taskStatus": "Not Started",
+      "isRecurring": false,
+      "recurringCadence": null,
+      "completed": false,
+      "completedAt": null,
+      "createdWeek": "2026-06-15",
+      "carriedForward": false
     }
   ],
   "snapshots": {
