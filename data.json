@@ -1879,5 +1879,23 @@
     "lastContactedDate": "2024-01-17",
     "tags": [],
     "notes": ""
+  },
+  {
+    "id": "26468e87-ca03-4c49-a588-042ff7a7ee45",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false,
+    "name": "Dawson Shamblin",
+    "type": "Mentor",
+    "priority": "High",
+    "location": "San Francisco",
+    "contactMethod": "Phone",
+    "cadenceDays": 120,
+    "lastContactedDate": "2026-06-16",
+    "tags": [
+      "search"
+    ],
+    "notes": "Connection via Amanda"
   }
 ]
