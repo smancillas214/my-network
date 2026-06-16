@@ -199,6 +199,13 @@
   },
   "thankyous": [
     {
+      "id": "af7fe50d-3384-4a95-a0d0-29c6300c180d",
+      "text": "Thank Trevor for Lunch",
+      "completed": false,
+      "completedAt": null,
+      "createdAt": "2026-06-16T15:43:21.393Z"
+    },
+    {
       "id": "38a88960-a114-4138-a829-8fb910035823",
       "text": "Emilie / Steve for Party",
       "completed": false,
