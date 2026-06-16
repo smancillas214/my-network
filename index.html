@@ -1515,22 +1515,21 @@ function renderMission(ro) {
     (!ro ? '<button class="linklike" onclick="addThankYou()">+ Add</button>' : '') + '</div></div>';
   if (!tyItems.length) html += '<div class="empty">No pending thank yous</div>';
   tyItems.slice(0,5).forEach(t => {
+    const hasPN = !!t.physicalNote;
     html += '<div class="row' + (t.completed ? ' done' : '') + '"><input type="checkbox" class="chk" style="--colc:var(--amber)" ' +
       (t.completed ? 'checked' : '') + (ro ? ' disabled' : '') + ' onchange="toggleThankYou(\'' + t.id + '\')">' +
-      '<div class="grow"><span class="txt">' + esc(t.text) + '</span></div>' +
+      '<div class="grow"><span class="txt">' + esc(t.text) + '</span>' +
+      (hasPN ? ' <span class="pill" style="color:var(--amber);background:var(--amber-bg);font-size:.65rem">Physical Note</span>' : '') +
+      '</div>' +
+      (!ro ? '<button class="linklike" style="font-size:.7rem;opacity:.6;margin-right:4px" onclick="toggleTyPhysicalNote(\'' + t.id + '\')" title="Toggle Physical Note">✉</button>' : '') +
       (!ro ? '<button class="rowdel" onclick="delThankYou(\'' + t.id + '\')" title="Remove">✕</button>' : '') + '</div>';
   });
   html += '</div>';
 
   /* GHMs */
   const ghms = mis.ghms.slice().sort((a,b) => new Date(b.createdAt)-new Date(a.createdAt));
-  html += '<div class="sec"><div class="sec-h"><h3>GHMs — God Honored Moments</h3><span class="cnt">' + ghms.length + '</span></div>';
-  if (!ro) {
-    html += '<div class="mission-add-form">' +
-      '<input id="ghmTitle" placeholder="Title...">' +
-      '<textarea id="ghmNotes" placeholder="Notes (optional)..." rows="2"></textarea>' +
-      '<button class="btn sm primary" onclick="addGhm()" style="align-self:flex-start;flex:none">Add</button></div>';
-  }
+  html += '<div class="sec"><div class="sec-h"><h3>GHMs — God Honored Moments</h3><div><span class="cnt">' + ghms.length + '</span> ' +
+    (!ro ? '<button class="linklike" onclick="addGhm()">+ Add</button>' : '') + '</div></div>';
   if (!ghms.length) html += '<div class="empty">No moments recorded yet</div>';
   ghms.forEach(g => {
     const isCurrentWk = g.week === dash.activeWeek;
@@ -1547,14 +1546,8 @@ function renderMission(ro) {
 
   /* Memory Verses */
   const verses = mis.memoryVerses.slice().sort((a,b) => new Date(b.createdAt)-new Date(a.createdAt));
-  html += '<div class="sec"><div class="sec-h"><h3>Memory Verses</h3><span class="cnt">' + verses.length + '</span></div>';
-  if (!ro) {
-    html += '<div class="mission-add-form">' +
-      '<input id="verseRef" placeholder="Reference (e.g. John 3:16)..." style="flex:0 0 160px">' +
-      '<textarea id="verseText" placeholder="Verse text..." rows="2"></textarea>' +
-      '<input id="verseMeaning" placeholder="Why this matters (optional)...">' +
-      '<button class="btn sm primary" onclick="addVerse()" style="align-self:flex-start;flex:none">Add</button></div>';
-  }
+  html += '<div class="sec"><div class="sec-h"><h3>Memory Verses</h3><div><span class="cnt">' + verses.length + '</span> ' +
+    (!ro ? '<button class="linklike" onclick="addVerse()">+ Add</button>' : '') + '</div></div>';
   if (!verses.length) html += '<div class="empty">Nothing yet</div>';
   verses.forEach(v => {
     const isCurrentWk = v.week === dash.activeWeek;
@@ -1597,19 +1590,19 @@ function renderMission(ro) {
 
 /* ---- Mission data helpers ---- */
 function addGhm() {
-  const title = $('ghmTitle').value.trim();
-  const notes = $('ghmNotes').value.trim();
-  if (!title) { toast('Title required'); return; }
-  dash.mission.ghms.unshift({ id: uuid(), title, text: title, notes, createdAt: new Date().toISOString(), week: dash.activeWeek });
-  saveDash(); render(); $('ghmTitle').value = ''; $('ghmNotes').value = '';
+  const title = prompt('Describe the moment:');
+  if (!title || !title.trim()) return;
+  dash.mission.ghms.unshift({ id: uuid(), title: title.trim(), text: title.trim(), notes: '', createdAt: new Date().toISOString(), week: dash.activeWeek });
+  saveDash(); render();
 }
 function addVerse() {
-  const ref = $('verseRef').value.trim();
-  const text = $('verseText').value.trim();
-  const meaning = $('verseMeaning').value.trim();
-  if (!text) { toast('Verse text required'); return; }
-  dash.mission.memoryVerses.unshift({ id: uuid(), reference: ref || null, text, meaning: meaning || null, createdAt: new Date().toISOString(), week: dash.activeWeek });
-  saveDash(); render(); $('verseRef').value = ''; $('verseText').value = ''; $('verseMeaning').value = '';
+  const ref = prompt('Reference (e.g. John 3:16):');
+  if (ref === null) return; // cancelled
+  const text = prompt('Verse text:');
+  if (!text || !text.trim()) return;
+  const meaning = prompt('Why this matters (optional):');
+  dash.mission.memoryVerses.unshift({ id: uuid(), reference: ref.trim() || null, text: text.trim(), meaning: (meaning && meaning.trim()) || null, createdAt: new Date().toISOString(), week: dash.activeWeek });
+  saveDash(); render();
 }
 function addNote() {
   const text = $('noteText').value.trim();
@@ -1644,6 +1637,12 @@ function toggleThankYou(id) {
   if (!t) return;
   t.completed = !t.completed;
   t.completedAt = t.completed ? new Date().toISOString() : null;
+  saveDash(); render();
+}
+function toggleTyPhysicalNote(id) {
+  const t = (dash.thankyous||[]).find(x => x.id === id);
+  if (!t) return;
+  t.physicalNote = !t.physicalNote;
   saveDash(); render();
 }
 function delThankYou(id) {
