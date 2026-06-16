@@ -1464,8 +1464,8 @@
       {
         "id": "95121d6a-8f25-490f-abbd-ae3e4c578799",
         "text": "Grapevine Theatre - Rec by Nic",
-        "completed": false,
-        "completedAt": null,
+        "completed": true,
+        "completedAt": "2026-06-16T15:43:55.973Z",
         "followUp": false,
         "createdAt": "2026-06-15T22:10:57.426Z",
         "week": "2026-06-15"
