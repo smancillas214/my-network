@@ -203,7 +203,8 @@
       "text": "Emilie / Steve for Party",
       "completed": false,
       "completedAt": null,
-      "createdAt": "2026-06-16T15:40:25.735Z"
+      "createdAt": "2026-06-16T15:40:25.735Z",
+      "physicalNote": true
     },
     {
       "id": "61bcd489-63b4-460e-aaa6-d522495c2893",
