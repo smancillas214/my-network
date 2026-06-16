@@ -1441,7 +1441,16 @@
         "week": "2026-06-08"
       }
     ],
-    "memoryVerses": [],
+    "memoryVerses": [
+      {
+        "id": "6b2ea90e-4a1c-4e7b-badd-d6970eb35cb9",
+        "reference": "Luke 19:11",
+        "text": "Son of Man came to seek and save the lost",
+        "meaning": null,
+        "createdAt": "2026-06-16T15:43:50.821Z",
+        "week": "2026-06-15"
+      }
+    ],
     "notes": [
       {
         "id": "6d3daf31-3dc2-4f59-b22b-2923365df201",
