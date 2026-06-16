@@ -199,6 +199,13 @@
   },
   "thankyous": [
     {
+      "id": "61bcd489-63b4-460e-aaa6-d522495c2893",
+      "text": "Mason / Brooke for Dinner",
+      "completed": false,
+      "completedAt": null,
+      "createdAt": "2026-06-16T15:44:36.784Z"
+    },
+    {
       "id": "af7fe50d-3384-4a95-a0d0-29c6300c180d",
       "text": "Thank Trevor for Lunch",
       "completed": false,
