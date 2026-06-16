@@ -163,15 +163,6 @@
       "introReachedOut": {},
       "followUps": [
         {
-          "id": "304c1d2a-8c86-4db3-a98c-5942b0da2d37",
-          "contactId": "d397b0cd-96ff-4660-8d89-62ce9c8eabb8",
-          "contactName": "Eduardo Zaldivar",
-          "action": "Request Introductions",
-          "notes": "Grant Hensel\nAlex Clark (Friend from GSB, BCG guy)",
-          "completed": false,
-          "completedAt": null
-        },
-        {
           "id": "3447bfe3-25da-435d-9675-6c0f8401e007",
           "contactId": "26468e87-ca03-4c49-a588-042ff7a7ee45",
           "contactName": "Dawson Shamblin",
@@ -179,6 +170,15 @@
           "notes": "",
           "completed": true,
           "completedAt": "2026-06-16T21:53:32.624Z"
+        },
+        {
+          "id": "304c1d2a-8c86-4db3-a98c-5942b0da2d37",
+          "contactId": "d397b0cd-96ff-4660-8d89-62ce9c8eabb8",
+          "contactName": "Eduardo Zaldivar",
+          "action": "Request Introductions",
+          "notes": "Grant Hensel\nAlex Clark (Friend from GSB, BCG guy)",
+          "completed": true,
+          "completedAt": "2026-06-16T21:53:33.943Z"
         },
         {
           "id": "1bc52168-163d-4054-b5d3-4c8fd2b0e92c",
@@ -206,13 +206,6 @@
       "createdAt": "2026-06-16T15:44:36.784Z"
     },
     {
-      "id": "af7fe50d-3384-4a95-a0d0-29c6300c180d",
-      "text": "Thank Trevor for Lunch",
-      "completed": false,
-      "completedAt": null,
-      "createdAt": "2026-06-16T15:43:21.393Z"
-    },
-    {
       "id": "38a88960-a114-4138-a829-8fb910035823",
       "text": "Emilie / Steve for Party",
       "completed": false,
@@ -225,6 +218,13 @@
       "completed": false,
       "completedAt": null,
       "createdAt": "2026-06-15T20:47:29.601Z"
+    },
+    {
+      "id": "af7fe50d-3384-4a95-a0d0-29c6300c180d",
+      "text": "Thank Trevor for Lunch",
+      "completed": true,
+      "completedAt": "2026-06-16T21:53:38.526Z",
+      "createdAt": "2026-06-16T15:43:21.393Z"
     }
   ],
   "priorities": [
