@@ -849,6 +849,21 @@
       "completedAt": null,
       "createdWeek": "2026-06-15",
       "carriedForward": false
+    },
+    {
+      "id": "4897c0f9-bc31-47f2-abbb-0f425be7cbd5",
+      "text": "State Fair YP Group",
+      "category": "Life",
+      "subcategory": null,
+      "priority": "Low",
+      "loe": "Low",
+      "taskStatus": "Not Started",
+      "isRecurring": false,
+      "recurringCadence": null,
+      "completed": false,
+      "completedAt": null,
+      "createdWeek": "2026-06-15",
+      "carriedForward": false
     }
   ],
   "snapshots": {
