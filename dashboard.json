@@ -199,14 +199,6 @@
   },
   "thankyous": [
     {
-      "id": "38a88960-a114-4138-a829-8fb910035823",
-      "text": "Emilie / Steve for Party",
-      "completed": false,
-      "completedAt": null,
-      "createdAt": "2026-06-16T15:40:25.735Z",
-      "physicalNote": true
-    },
-    {
       "id": "61bcd489-63b4-460e-aaa6-d522495c2893",
       "text": "Mason / Brooke for Dinner",
       "completed": true,
@@ -219,6 +211,14 @@
       "completed": true,
       "completedAt": "2026-06-16T21:53:38.526Z",
       "createdAt": "2026-06-16T15:43:21.393Z"
+    },
+    {
+      "id": "38a88960-a114-4138-a829-8fb910035823",
+      "text": "Emilie / Steve for Party",
+      "completed": true,
+      "completedAt": "2026-06-22T21:17:05.783Z",
+      "createdAt": "2026-06-16T15:40:25.735Z",
+      "physicalNote": true
     },
     {
       "id": "8cf2b840-de77-44d2-9e6f-c988b3d6b470",
