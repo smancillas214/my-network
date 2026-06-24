@@ -589,6 +589,24 @@
     "onHold": false
   },
   {
+    "id": "26468e87-ca03-4c49-a588-042ff7a7ee45",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false,
+    "name": "Dawson Shamblin",
+    "type": "Mentor",
+    "priority": "High",
+    "location": "San Francisco",
+    "contactMethod": "Phone",
+    "cadenceDays": 120,
+    "lastContactedDate": "2026-06-16",
+    "tags": [
+      "search"
+    ],
+    "notes": "Connection via Amanda"
+  },
+  {
     "id": "cafe29ce-4b34-4236-a360-9f4ce0068384",
     "name": "Dea Ochs",
     "location": "Dallas",
@@ -919,6 +937,22 @@
     "manualStatus": "Reached Out",
     "scheduledDate": null,
     "onHold": false
+  },
+  {
+    "id": "21303a54-10dd-433a-9d29-929ae80d37d6",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false,
+    "name": "Joe Riney",
+    "type": "Reach Out",
+    "priority": "Medium",
+    "location": "Dallas",
+    "contactMethod": "Meal",
+    "cadenceDays": 180,
+    "lastContactedDate": "2024-01-17",
+    "tags": [],
+    "notes": ""
   },
   {
     "id": "c1ad130d-364a-4a59-b455-c2e126dd28a4",
@@ -1865,37 +1899,21 @@
     "onHold": false
   },
   {
-    "id": "21303a54-10dd-433a-9d29-929ae80d37d6",
+    "id": "a751ae58-55e9-4d1f-8554-ec412664d782",
     "conversationHistory": [],
     "manualStatus": null,
     "scheduledDate": null,
     "onHold": false,
-    "name": "Joe Riney",
-    "type": "Reach Out",
-    "priority": "Medium",
-    "location": "Dallas",
-    "contactMethod": "Meal",
-    "cadenceDays": 180,
-    "lastContactedDate": "2024-01-17",
-    "tags": [],
-    "notes": ""
-  },
-  {
-    "id": "26468e87-ca03-4c49-a588-042ff7a7ee45",
-    "conversationHistory": [],
-    "manualStatus": null,
-    "scheduledDate": null,
-    "onHold": false,
-    "name": "Dawson Shamblin",
+    "name": "Jeff Partridge",
     "type": "Mentor",
     "priority": "High",
-    "location": "San Francisco",
-    "contactMethod": "Phone",
-    "cadenceDays": 120,
-    "lastContactedDate": "2026-06-16",
+    "location": "Dallas",
+    "contactMethod": "In Person",
+    "cadenceDays": 180,
+    "lastContactedDate": "2026-06-24",
     "tags": [
-      "search"
+      "private equity"
     ],
-    "notes": "Connection via Amanda"
+    "notes": ""
   }
 ]
