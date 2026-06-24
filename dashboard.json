@@ -192,7 +192,18 @@
       ]
     },
     "2026-06-22": {
-      "currentSlate": {},
+      "currentSlate": {
+        "7b2ded3e-edcd-4086-b463-be644c9478fa": {
+          "name": "Carl Baggett",
+          "contactMethod": "Phone",
+          "scheduledDate": "2026-06-23",
+          "source": "manual",
+          "completed": false,
+          "completedAt": null,
+          "occasion": "Coffee at Royal Oaks",
+          "occasionNotes": "Great conversation - just catching up; told me to take my money out of the market if I need to use it in next 3 years; said he could refer me to business operators at family establishments"
+        }
+      },
       "introReachedOut": {},
       "followUps": []
     }
