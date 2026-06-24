@@ -864,6 +864,21 @@
       "completedAt": null,
       "createdWeek": "2026-06-15",
       "carriedForward": false
+    },
+    {
+      "id": "985d292b-5bcf-4969-8c4b-d17c5abf0d3e",
+      "text": "Nice to Vienna",
+      "category": "Life",
+      "subcategory": "Europe Trip",
+      "priority": "Low",
+      "loe": "Low",
+      "taskStatus": "Not Started",
+      "isRecurring": false,
+      "recurringCadence": null,
+      "completed": false,
+      "completedAt": null,
+      "createdWeek": "2026-06-15",
+      "carriedForward": false
     }
   ],
   "snapshots": {
