@@ -290,8 +290,15 @@
       "connector"
     ],
     "notes": "",
-    "lastContactedDate": "2025-09-01",
-    "conversationHistory": [],
+    "lastContactedDate": "2026-06-24",
+    "conversationHistory": [
+      {
+        "id": "36edc63f-2184-4cc7-9a8a-ef19a25335d6",
+        "date": "2026-06-24",
+        "note": "Great conversation - just catching up; told me to take my money out of the market if I need to use it in next 3 years; said he could refer me to business operators at family establishments",
+        "occasion": "Coffee at Royal Oaks"
+      }
+    ],
     "manualStatus": "Follow Up",
     "scheduledDate": null,
     "onHold": false
@@ -899,6 +906,24 @@
     "manualStatus": null,
     "scheduledDate": null,
     "onHold": false
+  },
+  {
+    "id": "a751ae58-55e9-4d1f-8554-ec412664d782",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false,
+    "name": "Jeff Partridge",
+    "type": "Mentor",
+    "priority": "High",
+    "location": "Dallas",
+    "contactMethod": "In Person",
+    "cadenceDays": 180,
+    "lastContactedDate": "2026-06-24",
+    "tags": [
+      "private equity"
+    ],
+    "notes": ""
   },
   {
     "id": "41e53cc4-0c5d-4c45-91fe-163d4dcd51ab",
@@ -1897,23 +1922,5 @@
     "manualStatus": null,
     "scheduledDate": null,
     "onHold": false
-  },
-  {
-    "id": "a751ae58-55e9-4d1f-8554-ec412664d782",
-    "conversationHistory": [],
-    "manualStatus": null,
-    "scheduledDate": null,
-    "onHold": false,
-    "name": "Jeff Partridge",
-    "type": "Mentor",
-    "priority": "High",
-    "location": "Dallas",
-    "contactMethod": "In Person",
-    "cadenceDays": 180,
-    "lastContactedDate": "2026-06-24",
-    "tags": [
-      "private equity"
-    ],
-    "notes": ""
   }
 ]
