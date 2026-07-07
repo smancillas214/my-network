@@ -547,8 +547,8 @@
       "taskStatus": "Not Started",
       "isRecurring": false,
       "recurringCadence": null,
-      "completed": false,
-      "completedAt": null,
+      "completed": true,
+      "completedAt": "2026-07-07T14:58:05.677Z",
       "createdWeek": "2026-06-08",
       "carriedForward": false
     },
