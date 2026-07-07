@@ -1001,6 +1001,22 @@
       "createdWeek": "2026-07-06",
       "carriedForward": false,
       "pinned": true
+    },
+    {
+      "id": "b720e7ec-1cec-4f05-b14e-85126b181b00",
+      "text": "LA July Itinerary",
+      "category": "Life",
+      "subcategory": null,
+      "priority": "High",
+      "loe": "Low",
+      "taskStatus": "Not Started",
+      "isRecurring": false,
+      "recurringCadence": null,
+      "completed": false,
+      "completedAt": null,
+      "createdWeek": "2026-07-06",
+      "carriedForward": false,
+      "pinned": true
     }
   ],
   "snapshots": {
