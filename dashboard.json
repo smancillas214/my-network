@@ -234,7 +234,8 @@
       "text": "Mr Tiner - 4OJ Symphony",
       "completed": false,
       "completedAt": null,
-      "createdAt": "2026-07-07T15:02:48.260Z"
+      "createdAt": "2026-07-07T15:02:48.260Z",
+      "physicalNote": true
     },
     {
       "id": "50c73738-5ebc-49de-ba83-7a541062ea10",
