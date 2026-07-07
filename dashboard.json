@@ -27,6 +27,16 @@
       "loe": "Low",
       "cadenceDays": 30,
       "lastCompletedDate": "2026-06-15"
+    },
+    {
+      "id": "218c0b2f-8b52-49c2-81f0-081dec6343ce",
+      "text": "Weekly CDC Update",
+      "category": "Life",
+      "subcategory": "Callie",
+      "priority": "Low",
+      "loe": "Low",
+      "cadenceDays": 7,
+      "lastCompletedDate": null
     }
   ],
   "lastRecurringMonth": "2026-06",
@@ -916,6 +926,22 @@
       "createdWeek": "2026-07-06",
       "carriedForward": false,
       "pinned": true
+    },
+    {
+      "id": "8ce99570-69d3-4a76-b127-a061bca3bbc9",
+      "text": "Weekly CDC Update",
+      "category": "Life",
+      "subcategory": "Callie",
+      "priority": "Low",
+      "loe": "Low",
+      "taskStatus": "Not Started",
+      "isRecurring": true,
+      "recurringCadence": 7,
+      "completed": false,
+      "completedAt": null,
+      "createdWeek": "2026-07-06",
+      "carriedForward": false,
+      "recurringId": "218c0b2f-8b52-49c2-81f0-081dec6343ce"
     }
   ],
   "snapshots": {
