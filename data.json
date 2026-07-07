@@ -1958,5 +1958,24 @@
       "Revelyst"
     ],
     "notes": ""
+  },
+  {
+    "id": "1edd8b51-3609-462a-8a5c-e5afc0cd027d",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false,
+    "name": "Reese Neumann",
+    "type": "Reach Out",
+    "priority": "Medium",
+    "location": "Dallas",
+    "contactMethod": "Meal",
+    "cadenceDays": 90,
+    "lastContactedDate": "2026-07-07",
+    "tags": [
+      "Bain",
+      "A&M"
+    ],
+    "notes": ""
   }
 ]
