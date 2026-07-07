@@ -1977,5 +1977,24 @@
       "A&M"
     ],
     "notes": ""
+  },
+  {
+    "id": "e7d10e9b-ca72-44f4-9065-7d3cb0c0b95c",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false,
+    "name": "Brett Lepicier",
+    "type": "Reach Out",
+    "priority": "Medium",
+    "location": "Dallas",
+    "contactMethod": "Meal",
+    "cadenceDays": 30,
+    "lastContactedDate": "2026-07-07",
+    "tags": [
+      "A&M",
+      "Bain"
+    ],
+    "notes": ""
   }
 ]
