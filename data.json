@@ -1940,5 +1940,23 @@
       "search"
     ],
     "notes": ""
+  },
+  {
+    "id": "b986548c-0cd6-4d22-8b5a-3243d7bacff9",
+    "conversationHistory": [],
+    "manualStatus": null,
+    "scheduledDate": null,
+    "onHold": false,
+    "name": "Jane Rodriguez",
+    "type": "Mentor",
+    "priority": "Medium",
+    "location": "Denver",
+    "contactMethod": "Phone",
+    "cadenceDays": 45,
+    "lastContactedDate": "2026-07-07",
+    "tags": [
+      "Revelyst"
+    ],
+    "notes": ""
   }
 ]
