@@ -985,6 +985,22 @@
       "createdWeek": "2026-07-06",
       "carriedForward": false,
       "recurringId": "218c0b2f-8b52-49c2-81f0-081dec6343ce"
+    },
+    {
+      "id": "cc42a37b-7f26-4ef1-a1cf-21c476313217",
+      "text": "Summit Questions",
+      "category": "Work",
+      "subcategory": "AA_Partnership",
+      "priority": "High",
+      "loe": "Low",
+      "taskStatus": "Not Started",
+      "isRecurring": false,
+      "recurringCadence": null,
+      "completed": false,
+      "completedAt": null,
+      "createdWeek": "2026-07-06",
+      "carriedForward": false,
+      "pinned": true
     }
   ],
   "snapshots": {
