@@ -1017,6 +1017,21 @@
       "createdWeek": "2026-07-06",
       "carriedForward": false,
       "pinned": true
+    },
+    {
+      "id": "9ef6748c-a3c6-423b-b157-cbedf226e1e5",
+      "text": "Replace London Hotel",
+      "category": "Life",
+      "subcategory": "Europe Trip",
+      "priority": "Low",
+      "loe": "Low",
+      "taskStatus": "Not Started",
+      "isRecurring": false,
+      "recurringCadence": null,
+      "completed": false,
+      "completedAt": null,
+      "createdWeek": "2026-07-06",
+      "carriedForward": false
     }
   ],
   "snapshots": {
