@@ -230,11 +230,19 @@
   },
   "thankyous": [
     {
+      "id": "50c73738-5ebc-49de-ba83-7a541062ea10",
+      "text": "Mr / Mrs Conner - Hosting for 4OJ",
+      "completed": false,
+      "completedAt": null,
+      "createdAt": "2026-07-07T15:02:37.248Z"
+    },
+    {
       "id": "8bad9e79-6dfb-458f-8e22-21adcc1b20ee",
       "text": "Alex / Heather - Hosting",
       "completed": false,
       "completedAt": null,
-      "createdAt": "2026-07-07T15:02:26.439Z"
+      "createdAt": "2026-07-07T15:02:26.439Z",
+      "physicalNote": true
     },
     {
       "id": "61bcd489-63b4-460e-aaa6-d522495c2893",
