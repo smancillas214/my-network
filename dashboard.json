@@ -225,7 +225,17 @@
     "2026-07-06": {
       "currentSlate": {},
       "introReachedOut": {},
-      "followUps": []
+      "followUps": [
+        {
+          "id": "6fe16694-92f6-486d-bceb-eba4791e853a",
+          "contactId": "5a548dad-0bf0-4a86-b506-d5125f9786a7",
+          "contactName": "Matt Barnes",
+          "action": "Connect with Austin Miller",
+          "notes": "",
+          "completed": false,
+          "completedAt": null
+        }
+      ]
     }
   },
   "thankyous": [
