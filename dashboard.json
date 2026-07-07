@@ -227,6 +227,15 @@
       "introReachedOut": {},
       "followUps": [
         {
+          "id": "39187573-14dd-445d-ba00-99aa51422884",
+          "contactId": "b986548c-0cd6-4d22-8b5a-3243d7bacff9",
+          "contactName": "Jane Rodriguez",
+          "action": "Connect with Austin",
+          "notes": "",
+          "completed": false,
+          "completedAt": null
+        },
+        {
           "id": "6fe16694-92f6-486d-bceb-eba4791e853a",
           "contactId": "5a548dad-0bf0-4a86-b506-d5125f9786a7",
           "contactName": "Matt Barnes",
