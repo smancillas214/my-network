@@ -900,6 +900,21 @@
       "completedAt": "2026-06-24T16:48:53.751Z",
       "createdWeek": "2026-06-15",
       "carriedForward": false
+    },
+    {
+      "id": "5b50fe0d-00cd-43bb-9110-8416dc5b4a67",
+      "text": "Duke's Invoice",
+      "category": "Life",
+      "subcategory": "San Diego Trip",
+      "priority": "High",
+      "loe": "Low",
+      "taskStatus": "Not Started",
+      "isRecurring": false,
+      "recurringCadence": null,
+      "completed": false,
+      "completedAt": null,
+      "createdWeek": "2026-07-06",
+      "carriedForward": false
     }
   ],
   "snapshots": {
