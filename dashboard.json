@@ -230,11 +230,19 @@
   },
   "thankyous": [
     {
+      "id": "6d1687ea-913d-4837-a913-cb0dbade4493",
+      "text": "Mr Tiner - 4OJ Symphony",
+      "completed": false,
+      "completedAt": null,
+      "createdAt": "2026-07-07T15:02:48.260Z"
+    },
+    {
       "id": "50c73738-5ebc-49de-ba83-7a541062ea10",
       "text": "Mr / Mrs Conner - Hosting for 4OJ",
       "completed": false,
       "completedAt": null,
-      "createdAt": "2026-07-07T15:02:37.248Z"
+      "createdAt": "2026-07-07T15:02:37.248Z",
+      "physicalNote": true
     },
     {
       "id": "8bad9e79-6dfb-458f-8e22-21adcc1b20ee",
