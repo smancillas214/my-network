@@ -1217,7 +1217,7 @@
     "contactMethod": "Phone",
     "cadenceDays": 1000,
     "priority": "High",
-    "type": "Reach Out",
+    "type": "Mentor",
     "tags": [
       "Bain"
     ],
