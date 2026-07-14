@@ -253,7 +253,8 @@
       "text": "Amy / Jackson?",
       "completed": false,
       "completedAt": null,
-      "createdAt": "2026-07-14T19:28:18.686Z"
+      "createdAt": "2026-07-14T19:28:18.686Z",
+      "physicalNote": true
     },
     {
       "id": "6d1687ea-913d-4837-a913-cb0dbade4493",
