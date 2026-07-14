@@ -355,7 +355,7 @@ a { color: var(--accent); text-decoration: none; cursor: pointer; }
 
 <main id="view-dash">
   <section class="col col-pri">
-    <div class="col-head"><h2>Priorities</h2><span class="ro-note" id="priRo"></span></div>
+    <div class="col-head"><div style="display:flex;align-items:center;gap:10px"><h2>Priorities</h2><button id="btnClearCompleted" class="linklike" style="display:none" title="Archive completed tasks out of this week's view — still viewable by navigating to the week they were completed">Clear Completed</button></div><span class="ro-note" id="priRo"></span></div>
     <div class="col-body" id="priBody"></div>
     <div class="col-foot" id="priFoot"></div>
   </section>
@@ -602,9 +602,15 @@ function setActiveWeek(wk) {
   if (wk === dash.activeWeek) return;
   const outgoing = dash.activeWeek;
 
-  // Snapshot the outgoing active week
+  // Snapshot the outgoing active week.
+  // Merge (don't overwrite) any priorities already snapshotted there — e.g. tasks
+  // manually archived out of the live view via "Clear Completed" earlier in the week.
+  const existingOutgoing = dash.snapshots[outgoing];
+  const mergedPriorities = (existingOutgoing && existingOutgoing.priorities) ? existingOutgoing.priorities.slice() : [];
+  const mergedIds = new Set(mergedPriorities.map(t => t.id));
+  dash.priorities.forEach(t => { if (!mergedIds.has(t.id)) mergedPriorities.push(JSON.parse(JSON.stringify(t))); });
   dash.snapshots[outgoing] = {
-    priorities: JSON.parse(JSON.stringify(dash.priorities)),
+    priorities: mergedPriorities,
     mission: JSON.parse(JSON.stringify(dash.mission))
   };
 
@@ -865,6 +871,7 @@ function init() {
   $("wkPrev").onclick = () => navWeek(-1);
   $("wkNext").onclick = () => navWeek(1);
   $("btnSetActive").onclick = () => setActiveWeek(viewedWeek);
+  $("btnClearCompleted").onclick = archiveCompletedPriorities;
   $("btnSettings").onclick = openSettings;
   $("btnSetup").onclick = openSettings;
   $("tabDash").onclick = () => switchTab("dash");
@@ -959,6 +966,18 @@ function renderPriorities(ro) {
   const priorities = viewedPriorities();
   let html = "";
   const tops = topCats();
+
+  // "Clear Completed" only makes sense while looking at the live active week
+  const clearBtn = $("btnClearCompleted");
+  if (clearBtn) {
+    const completedCount = (!ro && isActiveWeek()) ? dash.priorities.filter(t => t.completed).length : 0;
+    if (completedCount > 0) {
+      clearBtn.style.display = "";
+      clearBtn.textContent = "Clear Completed (" + completedCount + ")";
+    } else {
+      clearBtn.style.display = "none";
+    }
+  }
 
   // Top Tasks pinned section
   const pinnedTasks = priorities.filter(t => t.pinned && !t.completed);
@@ -1190,6 +1209,28 @@ function editTask(id) {
     }
     saveDash(); closeModal(ov); renderDash();
   };
+}
+/* Archive completed tasks out of the live active-week view (data preserved,
+   filed under the week they were completed — visible via back navigation). */
+function weekOfTimestamp(iso) { return fmtISO(mondayOf(new Date(iso))); }
+function archiveCompletedPriorities() {
+  const completed = dash.priorities.filter(t => t.completed);
+  if (!completed.length) return;
+  const n = completed.length;
+  if (!confirm("Archive " + n + " completed task" + (n === 1 ? "" : "s") + " out of this week's view?\n\nThey stay in your data — find them by navigating back to the week they were completed.")) return;
+
+  completed.forEach(t => {
+    const wk = t.completedAt ? weekOfTimestamp(t.completedAt) : (t.createdWeek || dash.activeWeek);
+    if (!dash.snapshots[wk]) dash.snapshots[wk] = { priorities: [], mission: { ghms: [], memoryVerses: [], notes: [] } };
+    if (!dash.snapshots[wk].priorities) dash.snapshots[wk].priorities = [];
+    if (!dash.snapshots[wk].priorities.some(x => x.id === t.id)) dash.snapshots[wk].priorities.push(t);
+  });
+
+  const archivedIds = new Set(completed.map(t => t.id));
+  dash.priorities = dash.priorities.filter(t => !archivedIds.has(t.id));
+
+  saveDash(); renderDash();
+  toast("Archived " + n + " completed task" + (n === 1 ? "" : "s"));
 }
 function delTask(id) {
   const t = findTask(id); if (!t) return;
