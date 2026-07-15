@@ -476,6 +476,21 @@
       "createdWeek": "2026-07-06",
       "carriedForward": false,
       "pinned": true
+    },
+    {
+      "id": "96e0d509-0667-446b-a685-d32eb52c507e",
+      "text": "Train",
+      "category": "Life",
+      "subcategory": "Europe Trip",
+      "priority": "Low",
+      "loe": "Low",
+      "taskStatus": "Not Started",
+      "isRecurring": false,
+      "recurringCadence": null,
+      "completed": false,
+      "completedAt": null,
+      "createdWeek": "2026-07-06",
+      "carriedForward": false
     }
   ],
   "snapshots": {
