@@ -491,6 +491,21 @@
       "completedAt": null,
       "createdWeek": "2026-07-06",
       "carriedForward": false
+    },
+    {
+      "id": "ce8e6564-8f6d-43ce-aefe-58924e05a932",
+      "text": "Marseille / Antibes Hotels",
+      "category": "Life",
+      "subcategory": "Europe Trip",
+      "priority": "Low",
+      "loe": "Low",
+      "taskStatus": "Not Started",
+      "isRecurring": false,
+      "recurringCadence": null,
+      "completed": false,
+      "completedAt": null,
+      "createdWeek": "2026-07-06",
+      "carriedForward": false
     }
   ],
   "snapshots": {
