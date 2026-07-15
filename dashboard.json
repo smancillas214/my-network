@@ -34,7 +34,7 @@
       "priority": "Low",
       "loe": "Low",
       "cadenceDays": 7,
-      "lastCompletedDate": null
+      "lastCompletedDate": "2026-07-15"
     }
   ],
   "lastRecurringMonth": "2026-06",
@@ -455,8 +455,8 @@
       "taskStatus": "Not Started",
       "isRecurring": true,
       "recurringCadence": 7,
-      "completed": false,
-      "completedAt": null,
+      "completed": true,
+      "completedAt": "2026-07-15T18:42:30.000Z",
       "createdWeek": "2026-07-06",
       "carriedForward": false,
       "recurringId": "218c0b2f-8b52-49c2-81f0-081dec6343ce"
