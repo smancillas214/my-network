@@ -335,22 +335,6 @@
       "carriedForward": false
     },
     {
-      "id": "92274190-bfec-4c24-8724-da696e7dc7a9",
-      "text": "Gift for Cinco",
-      "category": "Life",
-      "subcategory": null,
-      "priority": "High",
-      "loe": "High",
-      "taskStatus": "Not Started",
-      "isRecurring": false,
-      "recurringCadence": null,
-      "completed": true,
-      "completedAt": "2026-07-20T14:24:58.545Z",
-      "createdWeek": "2026-06-08",
-      "carriedForward": false,
-      "pinned": true
-    },
-    {
       "id": "b5756bc4-573e-4b2a-91b3-00324c5d6734",
       "text": "Create \"Callie 101\" List - Likes / Dislikes / Fav Music / Flowers",
       "category": "Life",
@@ -454,38 +438,6 @@
       "completedAt": null,
       "createdWeek": "2026-06-15",
       "carriedForward": false
-    },
-    {
-      "id": "8ce99570-69d3-4a76-b127-a061bca3bbc9",
-      "text": "Weekly CDC Update",
-      "category": "Life",
-      "subcategory": "Callie",
-      "priority": "Low",
-      "loe": "Low",
-      "taskStatus": "Not Started",
-      "isRecurring": true,
-      "recurringCadence": 7,
-      "completed": true,
-      "completedAt": "2026-07-15T18:42:30.000Z",
-      "createdWeek": "2026-07-06",
-      "carriedForward": false,
-      "recurringId": "218c0b2f-8b52-49c2-81f0-081dec6343ce"
-    },
-    {
-      "id": "b720e7ec-1cec-4f05-b14e-85126b181b00",
-      "text": "LA July Itinerary",
-      "category": "Life",
-      "subcategory": null,
-      "priority": "High",
-      "loe": "Low",
-      "taskStatus": "Not Started",
-      "isRecurring": false,
-      "recurringCadence": null,
-      "completed": true,
-      "completedAt": "2026-07-15T18:42:23.070Z",
-      "createdWeek": "2026-07-06",
-      "carriedForward": false,
-      "pinned": true
     },
     {
       "id": "96e0d509-0667-446b-a685-d32eb52c507e",
@@ -3051,6 +3003,63 @@
           "completedAt": "2026-07-14T19:27:25.962Z",
           "createdWeek": "2026-07-06",
           "carriedForward": false
+        },
+        {
+          "id": "8ce99570-69d3-4a76-b127-a061bca3bbc9",
+          "text": "Weekly CDC Update",
+          "category": "Life",
+          "subcategory": "Callie",
+          "priority": "Low",
+          "loe": "Low",
+          "taskStatus": "Not Started",
+          "isRecurring": true,
+          "recurringCadence": 7,
+          "completed": true,
+          "completedAt": "2026-07-15T18:42:30.000Z",
+          "createdWeek": "2026-07-06",
+          "carriedForward": false,
+          "recurringId": "218c0b2f-8b52-49c2-81f0-081dec6343ce"
+        },
+        {
+          "id": "b720e7ec-1cec-4f05-b14e-85126b181b00",
+          "text": "LA July Itinerary",
+          "category": "Life",
+          "subcategory": null,
+          "priority": "High",
+          "loe": "Low",
+          "taskStatus": "Not Started",
+          "isRecurring": false,
+          "recurringCadence": null,
+          "completed": true,
+          "completedAt": "2026-07-15T18:42:23.070Z",
+          "createdWeek": "2026-07-06",
+          "carriedForward": false,
+          "pinned": true
+        }
+      ],
+      "mission": {
+        "ghms": [],
+        "memoryVerses": [],
+        "notes": []
+      }
+    },
+    "2026-07-20": {
+      "priorities": [
+        {
+          "id": "92274190-bfec-4c24-8724-da696e7dc7a9",
+          "text": "Gift for Cinco",
+          "category": "Life",
+          "subcategory": null,
+          "priority": "High",
+          "loe": "High",
+          "taskStatus": "Not Started",
+          "isRecurring": false,
+          "recurringCadence": null,
+          "completed": true,
+          "completedAt": "2026-07-20T14:24:58.545Z",
+          "createdWeek": "2026-06-08",
+          "carriedForward": false,
+          "pinned": true
         }
       ],
       "mission": {
