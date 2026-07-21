@@ -484,6 +484,22 @@
       "createdWeek": "2026-07-20",
       "carriedForward": false,
       "pinned": true
+    },
+    {
+      "id": "75e2aa7b-0911-4f80-a181-52af1cfbc0d4",
+      "text": "Miller - Final Tasks before Departure",
+      "category": "Life",
+      "subcategory": "Europe Trip",
+      "priority": "Low",
+      "loe": "Low",
+      "taskStatus": "Not Started",
+      "isRecurring": false,
+      "recurringCadence": null,
+      "completed": false,
+      "completedAt": null,
+      "createdWeek": "2026-07-20",
+      "carriedForward": false,
+      "pinned": true
     }
   ],
   "snapshots": {
