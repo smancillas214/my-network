@@ -468,6 +468,21 @@
       "completedAt": "2026-07-21T14:51:06.624Z",
       "createdWeek": "2026-07-06",
       "carriedForward": false
+    },
+    {
+      "id": "42b8666a-9614-4917-a9f8-b11629fb3059",
+      "text": "Itemized to Caden",
+      "category": "Life",
+      "subcategory": "Europe Trip",
+      "priority": "Low",
+      "loe": "Low",
+      "taskStatus": "Not Started",
+      "isRecurring": false,
+      "recurringCadence": null,
+      "completed": false,
+      "completedAt": null,
+      "createdWeek": "2026-07-20",
+      "carriedForward": false
     }
   ],
   "snapshots": {
