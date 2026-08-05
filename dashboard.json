@@ -253,6 +253,16 @@
       "currentSlate": {},
       "introReachedOut": {},
       "followUps": []
+    },
+    "2026-07-27": {
+      "currentSlate": {},
+      "introReachedOut": {},
+      "followUps": []
+    },
+    "2026-08-03": {
+      "currentSlate": {},
+      "introReachedOut": {},
+      "followUps": []
     }
   },
   "thankyous": [
@@ -3092,12 +3102,291 @@
           "createdWeek": "2026-06-08",
           "carriedForward": false,
           "pinned": true
+        },
+        {
+          "id": "ce8f0128-57a3-4da0-93cc-984002d51752",
+          "text": "Sketch Out Itinerary",
+          "category": "Life",
+          "subcategory": "Europe Trip",
+          "priority": "Medium",
+          "loe": "High",
+          "taskStatus": "Not Started",
+          "isRecurring": false,
+          "recurringCadence": null,
+          "completed": false,
+          "completedAt": null,
+          "createdWeek": "2026-06-08",
+          "carriedForward": false
+        },
+        {
+          "id": "b5756bc4-573e-4b2a-91b3-00324c5d6734",
+          "text": "Create \"Callie 101\" List - Likes / Dislikes / Fav Music / Flowers",
+          "category": "Life",
+          "subcategory": "Callie",
+          "priority": "Low",
+          "loe": "Low",
+          "taskStatus": "In Progress",
+          "isRecurring": false,
+          "recurringCadence": null,
+          "completed": false,
+          "completedAt": null,
+          "createdWeek": "2026-06-08",
+          "carriedForward": false
+        },
+        {
+          "id": "e713c9ae-5ea6-4541-b432-a181a047ce0b",
+          "text": "FIGURE OUT TAXES",
+          "category": "Work",
+          "subcategory": null,
+          "priority": "High",
+          "loe": "High",
+          "taskStatus": "Not Started",
+          "isRecurring": false,
+          "recurringCadence": null,
+          "completed": false,
+          "completedAt": null,
+          "createdWeek": "2026-06-08",
+          "carriedForward": false
+        },
+        {
+          "id": "aebb113f-0844-4eda-855d-0768d496454d",
+          "text": "Cancel Barclays?",
+          "category": "Work",
+          "subcategory": null,
+          "priority": "Medium",
+          "loe": "Medium",
+          "taskStatus": "Not Started",
+          "isRecurring": false,
+          "recurringCadence": null,
+          "completed": false,
+          "completedAt": null,
+          "createdWeek": "2026-06-08",
+          "carriedForward": false
+        },
+        {
+          "id": "dd57d823-511b-44c9-83a8-8d737b4207e8",
+          "text": "Reflect on Revelyst",
+          "category": "Work",
+          "subcategory": "Revelyst",
+          "priority": "Low",
+          "loe": "High",
+          "taskStatus": "Not Started",
+          "isRecurring": false,
+          "recurringCadence": null,
+          "completed": false,
+          "completedAt": null,
+          "createdWeek": "2026-06-08",
+          "carriedForward": false
+        },
+        {
+          "id": "9b40126e-f379-4c75-a727-38c99cd394ed",
+          "text": "Luchese Gift Card?",
+          "category": "Life",
+          "subcategory": "A_Misc",
+          "priority": "Low",
+          "loe": "Low",
+          "taskStatus": "Not Started",
+          "isRecurring": false,
+          "recurringCadence": null,
+          "completed": false,
+          "completedAt": null,
+          "createdWeek": "2026-06-15",
+          "carriedForward": false
+        },
+        {
+          "id": "9212d0c4-b889-482d-b341-2506b598054e",
+          "text": "Date Recollection",
+          "category": "Life",
+          "subcategory": "Callie",
+          "priority": "Low",
+          "loe": "Low",
+          "taskStatus": "Not Started",
+          "isRecurring": false,
+          "recurringCadence": null,
+          "completed": false,
+          "completedAt": null,
+          "createdWeek": "2026-06-15",
+          "carriedForward": false
+        },
+        {
+          "id": "4897c0f9-bc31-47f2-abbb-0f425be7cbd5",
+          "text": "State Fair YP Group",
+          "category": "Life",
+          "subcategory": null,
+          "priority": "Low",
+          "loe": "Low",
+          "taskStatus": "Not Started",
+          "isRecurring": false,
+          "recurringCadence": null,
+          "completed": false,
+          "completedAt": null,
+          "createdWeek": "2026-06-15",
+          "carriedForward": false
+        },
+        {
+          "id": "96e0d509-0667-446b-a685-d32eb52c507e",
+          "text": "Train",
+          "category": "Life",
+          "subcategory": "Europe Trip",
+          "priority": "Low",
+          "loe": "Low",
+          "taskStatus": "Not Started",
+          "isRecurring": false,
+          "recurringCadence": null,
+          "completed": false,
+          "completedAt": null,
+          "createdWeek": "2026-07-06",
+          "carriedForward": false
+        },
+        {
+          "id": "ce8e6564-8f6d-43ce-aefe-58924e05a932",
+          "text": "Marseille / Antibes Hotels",
+          "category": "Life",
+          "subcategory": "Europe Trip",
+          "priority": "Low",
+          "loe": "Low",
+          "taskStatus": "Not Started",
+          "isRecurring": false,
+          "recurringCadence": null,
+          "completed": true,
+          "completedAt": "2026-07-21T14:51:06.624Z",
+          "createdWeek": "2026-07-06",
+          "carriedForward": false
+        },
+        {
+          "id": "42b8666a-9614-4917-a9f8-b11629fb3059",
+          "text": "Itemized to Caden",
+          "category": "Life",
+          "subcategory": "Europe Trip",
+          "priority": "Low",
+          "loe": "Low",
+          "taskStatus": "Not Started",
+          "isRecurring": false,
+          "recurringCadence": null,
+          "completed": false,
+          "completedAt": null,
+          "createdWeek": "2026-07-20",
+          "carriedForward": false,
+          "pinned": true
+        },
+        {
+          "id": "75e2aa7b-0911-4f80-a181-52af1cfbc0d4",
+          "text": "Miller - Final Tasks before Departure",
+          "category": "Life",
+          "subcategory": "Europe Trip",
+          "priority": "Low",
+          "loe": "Low",
+          "taskStatus": "Not Started",
+          "isRecurring": false,
+          "recurringCadence": null,
+          "completed": true,
+          "completedAt": "2026-08-05T15:36:09.496Z",
+          "createdWeek": "2026-07-20",
+          "carriedForward": false,
+          "pinned": true
         }
       ],
       "mission": {
-        "ghms": [],
-        "memoryVerses": [],
-        "notes": []
+        "ghms": [
+          {
+            "id": "f7b4b7b2-a4c5-479a-8da9-46116e6f8341",
+            "title": "Great Conversations about Search",
+            "text": "Great Conversations about Search",
+            "notes": "Eduardo, Trevor (OG Mentors) and net new Dawson Shamblin - All encouraging / uplifting",
+            "createdAt": "2026-06-16T15:43:08.744Z",
+            "week": "2026-06-15"
+          },
+          {
+            "id": "dd621e2b-22a4-4b11-9a39-81e391f8b556",
+            "text": "Star Spangled Banner Playing at Dallas Cathedral",
+            "createdAt": "2026-06-10T22:39:23.075Z",
+            "week": "2026-06-08",
+            "title": "Star Spangled Banner Playing at Dallas Cathedral",
+            "notes": "After conversation with Dante about converting to Catholicism"
+          },
+          {
+            "id": "3c92f0d7-df82-499d-9d72-0db456228a4a",
+            "title": "Free Fedex Box for Revelyst Return",
+            "notes": "Was stressing over tearing apart the original box from Revelyst; guy at Fedex gave one for free",
+            "text": "Free Fedex Box for Revelyst Return",
+            "createdAt": "2026-06-11T01:56:04.647Z",
+            "week": "2026-06-08"
+          },
+          {
+            "id": "5c3edf31-05a4-40ac-a16e-62d5e4c19b50",
+            "title": "Henry reading Prov 10",
+            "notes": "Henry read Prov 10 the same morning I sent him Prov 17:21, verse about parenting",
+            "text": "Henry reading Prov 10",
+            "createdAt": "2026-06-11T01:56:27.684Z",
+            "week": "2026-06-08"
+          }
+        ],
+        "memoryVerses": [
+          {
+            "id": "6b2ea90e-4a1c-4e7b-badd-d6970eb35cb9",
+            "reference": "Luke 19:11",
+            "text": "Son of Man came to seek and save the lost",
+            "meaning": null,
+            "createdAt": "2026-06-16T15:43:50.821Z",
+            "week": "2026-06-15"
+          }
+        ],
+        "notes": [
+          {
+            "id": "6d3daf31-3dc2-4f59-b22b-2923365df201",
+            "text": "Early Times - 1 Liter - Rec by Nic",
+            "completed": false,
+            "completedAt": null,
+            "followUp": false,
+            "createdAt": "2026-06-15T22:11:44.619Z",
+            "week": "2026-06-15"
+          },
+          {
+            "id": "95121d6a-8f25-490f-abbd-ae3e4c578799",
+            "text": "Grapevine Theatre - Rec by Nic",
+            "completed": true,
+            "completedAt": "2026-06-16T15:43:55.973Z",
+            "followUp": false,
+            "createdAt": "2026-06-15T22:10:57.426Z",
+            "week": "2026-06-15"
+          },
+          {
+            "id": "17d92192-78bc-4032-a8f3-3e703765432e",
+            "text": "Granola / Whispr Combo per Bybee Rec",
+            "completed": false,
+            "completedAt": null,
+            "followUp": false,
+            "createdAt": "2026-06-15T22:10:39.891Z",
+            "week": "2026-06-15"
+          },
+          {
+            "id": "1ffaa530-24cb-4dc1-9bc6-896d2cf31a79",
+            "text": "Look into \"AutoResearch\" Claude Plugin - per Field's Advice",
+            "completed": false,
+            "completedAt": null,
+            "followUp": false,
+            "createdAt": "2026-06-11T01:56:48.605Z",
+            "week": "2026-06-08"
+          },
+          {
+            "id": "8a4c105d-cf3c-4758-b47d-310c9faa3b78",
+            "text": "Steven Talkhouse - Bar Recommended by John John",
+            "completed": true,
+            "completedAt": "2026-06-15T22:08:29.538Z",
+            "followUp": false,
+            "createdAt": "2026-06-11T16:05:36.894Z",
+            "week": "2026-06-08"
+          },
+          {
+            "id": "fa158da0-c778-4c49-850c-abad4f94dab5",
+            "text": "McGuire Woods - Independent Sponsor Summit - Recommended by Dubs",
+            "completed": false,
+            "completedAt": null,
+            "followUp": false,
+            "createdAt": "2026-06-11T16:05:48.181Z",
+            "week": "2026-06-08"
+          }
+        ]
       }
     }
   },
@@ -3203,5 +3492,5 @@
       }
     ]
   },
-  "activeWeek": "2026-07-20"
+  "activeWeek": "2026-08-03"
 }
