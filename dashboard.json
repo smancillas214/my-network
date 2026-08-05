@@ -439,7 +439,7 @@
       "text": "Reimbursements",
       "category": "Life",
       "subcategory": "Europe Trip",
-      "priority": "Low",
+      "priority": "High",
       "loe": "Low",
       "taskStatus": "Not Started",
       "isRecurring": false,
