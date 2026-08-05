@@ -433,6 +433,21 @@
       "completedAt": null,
       "createdWeek": "2026-06-15",
       "carriedForward": false
+    },
+    {
+      "id": "798bc745-b160-4a04-909c-6db705ab4ec8",
+      "text": "Reimbursements",
+      "category": "Life",
+      "subcategory": "Europe Trip",
+      "priority": "Low",
+      "loe": "Low",
+      "taskStatus": "Not Started",
+      "isRecurring": false,
+      "recurringCadence": null,
+      "completed": false,
+      "completedAt": null,
+      "createdWeek": "2026-08-03",
+      "carriedForward": false
     }
   ],
   "snapshots": {
