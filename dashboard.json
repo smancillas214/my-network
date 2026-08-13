@@ -459,10 +459,11 @@
       "taskStatus": "Not Started",
       "isRecurring": false,
       "recurringCadence": null,
-      "completed": true,
-      "completedAt": "2026-08-13T14:58:32.680Z",
+      "completed": false,
+      "completedAt": null,
       "createdWeek": "2026-08-03",
-      "carriedForward": false
+      "carriedForward": false,
+      "pinned": true
     },
     {
       "id": "cb39b6d6-d910-4d95-8561-364983eaea47",
