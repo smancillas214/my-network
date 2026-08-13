@@ -499,7 +499,8 @@
       "completed": false,
       "completedAt": null,
       "createdWeek": "2026-08-03",
-      "carriedForward": false
+      "carriedForward": false,
+      "pinned": true
     }
   ],
   "snapshots": {
