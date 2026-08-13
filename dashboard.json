@@ -448,6 +448,21 @@
       "completedAt": null,
       "createdWeek": "2026-08-03",
       "carriedForward": false
+    },
+    {
+      "id": "790b001b-9f85-4b65-8cda-e5de16c0972d",
+      "text": "Meeting with CPA - Prep of Documents",
+      "category": "Work",
+      "subcategory": "AA_Partnership",
+      "priority": "Low",
+      "loe": "Low",
+      "taskStatus": "Not Started",
+      "isRecurring": false,
+      "recurringCadence": null,
+      "completed": false,
+      "completedAt": null,
+      "createdWeek": "2026-08-03",
+      "carriedForward": false
     }
   ],
   "snapshots": {
