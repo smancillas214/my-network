@@ -480,6 +480,21 @@
       "createdWeek": "2026-08-03",
       "carriedForward": false,
       "pinned": true
+    },
+    {
+      "id": "3d3c8e98-d8ac-4203-a90f-ae13e7608069",
+      "text": "yCPD Outreach",
+      "category": "Life",
+      "subcategory": null,
+      "priority": "Low",
+      "loe": "Low",
+      "taskStatus": "Not Started",
+      "isRecurring": false,
+      "recurringCadence": null,
+      "completed": false,
+      "completedAt": null,
+      "createdWeek": "2026-08-03",
+      "carriedForward": false
     }
   ],
   "snapshots": {
